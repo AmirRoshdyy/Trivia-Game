@@ -6,62 +6,55 @@
 <title>Ultimate Trivia Showdown</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; min-height: 100vh; overflow-x: hidden; }
+body { font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; min-height: 100vh; }
 .screen { display: none; padding: 20px; min-height: 100vh; }
 .screen.active { display: block; }
-.setup-card { max-width: 500px; margin: 40px auto; background: rgba(0,0,0,0.5); padding: 30px; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.4); text-align: center; }
+.setup-card { max-width: 500px; margin: 40px auto; background: rgba(0,0,0,0.5); padding: 30px; border-radius: 15px; text-align: center; }
 .setup-card h1 { margin-bottom: 10px; font-size: 2rem; }
 .subtitle { color: #ffd700; margin-bottom: 25px; }
 .setup-card label { display: block; margin: 15px 0 5px; text-align: left; font-weight: bold; }
 .setup-card input { width: 100%; padding: 10px; border-radius: 8px; border: 2px solid #ffd700; background: #fff; color: #000; font-size: 1rem; }
 .hint { margin-top: 15px; font-size: 0.85rem; opacity: 0.7; }
-.primary-btn, .secondary-btn, .correct-btn, .wrong-btn { padding: 12px 25px; font-size: 1rem; border: none; border-radius: 8px; cursor: pointer; margin: 10px 5px; font-weight: bold; transition: transform 0.15s, box-shadow 0.15s; }
+.primary-btn, .secondary-btn, .correct-btn, .wrong-btn { padding: 12px 25px; font-size: 1rem; border: none; border-radius: 8px; cursor: pointer; margin: 10px 5px; font-weight: bold; }
 .primary-btn { background: #ffd700; color: #1e3c72; }
-.primary-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(255,215,0,0.5); }
 .secondary-btn { background: #555; color: #fff; }
 .correct-btn { background: #27ae60; color: #fff; }
 .wrong-btn { background: #c0392b; color: #fff; }
 .top-bar { display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.5); padding: 15px 20px; border-radius: 12px; margin-bottom: 20px; flex-wrap: wrap; gap: 15px; }
 #scoreboard { display: flex; gap: 15px; flex-wrap: wrap; }
 .score-chip { background: #ffd700; color: #1e3c72; padding: 6px 12px; border-radius: 20px; font-weight: bold; }
-.score-chip.active { background: #27ae60; color: #fff; box-shadow: 0 0 12px #27ae60; }
+.score-chip.active { background: #27ae60; color: #fff; }
 .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.category-header { background: #ffd700; color: #1e3c72; padding: 15px 5px; text-align: center; font-weight: bold; border-radius: 8px; font-size: 0.95rem; min-height: 60px; display: flex; align-items: center; justify-content: center; }
-.tile { background: #1a2a5c; color: #ffd700; padding: 20px 5px; text-align: center; font-size: 1.4rem; font-weight: bold; border-radius: 8px; cursor: pointer; transition: all 0.2s; border: 2px solid #2a5298; }
-.tile:hover:not(.used) { background: #ffd700; color: #1a2a5c; transform: scale(1.05); }
+.category-header { background: #ffd700; color: #1e3c72; padding: 15px 5px; text-align: center; font-weight: bold; border-radius: 8px; min-height: 60px; display: flex; align-items: center; justify-content: center; }
+.tile { background: #1a2a5c; color: #ffd700; padding: 20px 5px; text-align: center; font-size: 1.4rem; font-weight: bold; border-radius: 8px; cursor: pointer; border: 2px solid #2a5298; }
+.tile:hover:not(.used) { background: #ffd700; color: #1a2a5c; }
 .tile.used { background: #333; color: #666; cursor: not-allowed; opacity: 0.4; }
 .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.85); display: flex; align-items: center; justify-content: center; z-index: 100; padding: 20px; }
 .modal.hidden { display: none; }
 .modal-content { background: linear-gradient(135deg, #2a5298, #1e3c72); padding: 30px; border-radius: 15px; max-width: 700px; width: 100%; border: 3px solid #ffd700; text-align: center; }
-.modal-header { display: flex; justify-content: space-between; margin-bottom: 20px; font-weight: bold; color: #ffd700; font-size: 1.1rem; }
-.question-text { font-size: 1.4rem; margin: 20px 0; line-height: 1.5; }
-.answer { background: rgba(255,215,0,0.15); border: 2px solid #ffd700; padding: 15px; border-radius: 10px; margin: 15px 0; font-size: 1.2rem; font-weight: bold; color: #ffd700; }
+.modal-header { display: flex; justify-content: space-between; margin-bottom: 20px; font-weight: bold; color: #ffd700; }
+.question-text { font-size: 1.4rem; margin: 20px 0; }
+.answer { background: rgba(255,215,0,0.15); border: 2px solid #ffd700; padding: 15px; border-radius: 10px; margin: 15px 0; font-weight: bold; color: #ffd700; }
 .hidden { display: none; }
 #final-scores { margin: 20px 0; }
-.final-row { background: rgba(0,0,0,0.3); padding: 12px 20px; border-radius: 8px; margin: 8px 0; display: flex; justify-content: space-between; font-size: 1.1rem; }
+.final-row { background: rgba(0,0,0,0.3); padding: 12px 20px; border-radius: 8px; margin: 8px 0; display: flex; justify-content: space-between; }
 .final-row.winner { background: #ffd700; color: #1e3c72; font-weight: bold; }
-@media (max-width: 700px) { .board { grid-template-columns: repeat(2, 1fr); } .category-header { font-size: 0.8rem; } .tile { font-size: 1.1rem; padding: 15px 3px; } .question-text { font-size: 1.1rem; } }
 </style>
 </head>
 <body>
 
-<!-- SETUP SCREEN -->
 <section id="setup-screen" class="screen active">
   <div class="setup-card">
     <h1>🎯 Ultimate Trivia Showdown</h1>
-    <p class="subtitle">4 Random Categories · 10 Questions Each · Increasing Difficulty</p>
-
+    <p class="subtitle">4 Random Categories · 10 Questions Each</p>
     <label for="player-count">Number of Players (2–8)</label>
     <input type="number" id="player-count" min="2" max="8" value="2"/>
-
     <div id="players-inputs"></div>
-
     <button id="start-btn" class="primary-btn">Start Game</button>
-    <p class="hint">Tip: Higher point tiles = harder questions. Choose wisely!</p>
+    <p class="hint">Higher point tiles = harder questions!</p>
   </div>
 </section>
 
-<!-- GAME BOARD SCREEN -->
 <section id="board-screen" class="screen">
   <header class="top-bar">
     <h2>Current Turn: <span id="current-player">—</span></h2>
@@ -71,24 +64,17 @@ body { font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(
   <div id="board" class="board"></div>
 </section>
 
-<!-- QUESTION MODAL -->
 <div id="question-modal" class="modal hidden">
   <div class="modal-content">
-    <div class="modal-header">
-      <span id="q-category"></span>
-      <span id="q-points"></span>
-    </div>
+    <div class="modal-header"><span id="q-category"></span><span id="q-points"></span></div>
     <p id="q-text" class="question-text"></p>
     <div id="q-answer" class="answer hidden"></div>
-    <div class="modal-actions">
-      <button id="reveal-btn" class="primary-btn">Reveal Answer</button>
-      <button id="correct-btn" class="correct-btn hidden">✔ Correct</button>
-      <button id="wrong-btn" class="wrong-btn hidden">✘ Wrong</button>
-    </div>
+    <button id="reveal-btn" class="primary-btn">Reveal Answer</button>
+    <button id="correct-btn" class="correct-btn hidden">✔ Correct</button>
+    <button id="wrong-btn" class="wrong-btn hidden">✘ Wrong</button>
   </div>
 </div>
 
-<!-- END SCREEN -->
 <section id="end-screen" class="screen">
   <div class="setup-card">
     <h1>🏆 Game Over!</h1>
@@ -98,7 +84,154 @@ body { font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(
 </section>
 
 <script src="js/questions.js"></script>
-<script src="js/game.js"></script>
-<script src="js/app.js"></script>
+<script>
+// ==== GAME LOGIC ====
+const Game = {
+  players: [], currentPlayerIndex: 0, categories: [], board: {},
+  activeQuestion: null, totalQuestions: 40, answered: 0,
+  init(names) {
+    this.players = names.map(n => ({name: n, score: 0}));
+    this.currentPlayerIndex = 0; this.answered = 0;
+    const all = Object.keys(CATEGORIES);
+    this.categories = [...all].sort(() => Math.random() - 0.5).slice(0, 4);
+    this.board = {};
+    const points = [100,200,300,400,500,600,700,800,900,1000];
+    this.categories.forEach(cat => {
+      this.board[cat] = CATEGORIES[cat].map((item, i) => ({
+        points: points[i], q: item.q, a: item.a, used: false
+      }));
+    });
+  },
+  currentPlayer() { return this.players[this.currentPlayerIndex]; },
+  selectQuestion(cat, idx) {
+    const t = this.board[cat][idx];
+    if (t.used) return null;
+    this.activeQuestion = {category: cat, index: idx, ...t};
+    return this.activeQuestion;
+  },
+  resolveQuestion(correct) {
+    const {category, index, points} = this.activeQuestion;
+    this.board[category][index].used = true;
+    if (correct) this.currentPlayer().score += points;
+    this.answered++;
+    this.activeQuestion = null;
+    this.currentPlayerIndex = (this.currentPlayerIndex + 1) % this.players.length;
+  },
+  isGameOver() { return this.answered >= this.totalQuestions; },
+  finalRanking() { return [...this.players].sort((a,b) => b.score - a.score); }
+};
+
+// ==== UI WIRING ====
+const $ = id => document.getElementById(id);
+
+function renderPlayerInputs() {
+  const n = Math.max(2, Math.min(8, parseInt($("player-count").value) || 2));
+  const box = $("players-inputs");
+  box.innerHTML = "";
+  for (let i = 0; i < n; i++) {
+    const l = document.createElement("label");
+    l.textContent = "Player " + (i+1) + " Name";
+    const inp = document.createElement("input");
+    inp.type = "text"; inp.value = "Player " + (i+1);
+    inp.className = "player-name-input"; inp.dataset.idx = i;
+    box.appendChild(l); box.appendChild(inp);
+  }
+}
+$("player-count").addEventListener("input", renderPlayerInputs);
+renderPlayerInputs();
+
+$("start-btn").addEventListener("click", () => {
+  const inputs = document.querySelectorAll(".player-name-input");
+  const names = [...inputs].map(i => i.value.trim() || ("Player " + (+i.dataset.idx + 1)));
+  Game.init(names);
+  showScreen("board-screen");
+  renderBoard(); updateHUD();
+});
+
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  $(id).classList.add("active");
+}
+
+function renderBoard() {
+  const b = $("board"); b.innerHTML = "";
+  Game.categories.forEach(cat => {
+    const h = document.createElement("div");
+    h.className = "category-header"; h.textContent = cat;
+    b.appendChild(h);
+  });
+  for (let row = 0; row < 10; row++) {
+    Game.categories.forEach(cat => {
+      const tile = Game.board[cat][row];
+      const el = document.createElement("div");
+      el.className = "tile" + (tile.used ? " used" : "");
+      el.textContent = tile.used ? "—" : tile.points;
+      el.addEventListener("click", () => { if (!tile.used) openQuestion(cat, row); });
+      b.appendChild(el);
+    });
+  }
+}
+
+function updateHUD() {
+  $("current-player").textContent = Game.currentPlayer().name;
+  const sb = $("scoreboard"); sb.innerHTML = "";
+  Game.players.forEach((p, idx) => {
+    const c = document.createElement("div");
+    c.className = "score-chip" + (idx === Game.currentPlayerIndex ? " active" : "");
+    c.textContent = p.name + ": " + p.score;
+    sb.appendChild(c);
+  });
+}
+
+function openQuestion(cat, idx) {
+  const q = Game.selectQuestion(cat, idx);
+  if (!q) return;
+  $("q-category").textContent = cat;
+  $("q-points").textContent = q.points + " pts";
+  $("q-text").textContent = q.q;
+  $("q-answer").textContent = q.a;
+  $("q-answer").classList.add("hidden");
+  $("reveal-btn").classList.remove("hidden");
+  $("correct-btn").classList.add("hidden");
+  $("wrong-btn").classList.add("hidden");
+  $("question-modal").classList.remove("hidden");
+}
+
+$("reveal-btn").addEventListener("click", () => {
+  $("q-answer").classList.remove("hidden");
+  $("reveal-btn").classList.add("hidden");
+  $("correct-btn").classList.remove("hidden");
+  $("wrong-btn").classList.remove("hidden");
+});
+
+function closeAndResolve(correct) {
+  Game.resolveQuestion(correct);
+  $("question-modal").classList.add("hidden");
+  renderBoard(); updateHUD();
+  if (Game.isGameOver()) endGame();
+}
+
+$("correct-btn").addEventListener("click", () => closeAndResolve(true));
+$("wrong-btn").addEventListener("click", () => closeAndResolve(false));
+
+$("end-game-btn").addEventListener("click", () => {
+  if (confirm("End game now?")) endGame();
+});
+
+function endGame() {
+  const ranked = Game.finalRanking();
+  const c = $("final-scores"); c.innerHTML = "";
+  ranked.forEach((p, i) => {
+    const row = document.createElement("div");
+    row.className = "final-row" + (i === 0 ? " winner" : "");
+    row.innerHTML = "<span>" + (i === 0 ? "🏆 " : "#" + (i+1) + " ") + p.name + "</span><span>" + p.score + " pts</span>";
+    c.appendChild(row);
+  });
+  showScreen("end-screen");
+}
+
+$("restart-btn").addEventListener("click", () => location.reload());
+</script>
+
 </body>
 </html>
