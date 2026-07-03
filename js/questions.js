@@ -615,18 +615,6 @@ const CATEGORIES = {
     { q: "What was the former name of the country now called Myanmar until 1989?", a: "Burma", difficulty: 9, hint: "Southeast Asian country", choices: ["Burma", "Siam", "Ceylon", "Formosa"] },
     { q: "What is the only US state capital with no letters in common with the state name?", a: "Pierre", difficulty: 9, hint: "Capital of South Dakota", choices: ["Pierre", "Dover", "Augusta", "Frankfort"] }
 ],
-"Chemistry": [
-  {q:"Symbol for water?", a:"H2O"},
-  {q:"Atomic number of Carbon?", a:"6"},
-  {q:"Gas plants absorb?", a:"CO2"},
-  {q:"pH of pure water?", a:"7"},
-  {q:"Creator of modern periodic table?", a:"Dmitri Mendeleev"},
-  {q:"Most abundant gas in atmosphere?", a:"Nitrogen"},
-  {q:"Avogadros number?", a:"6.02 x 10^23"},
-  {q:"Bond by sharing electrons?", a:"Covalent"},
-  {q:"Element with highest electronegativity?", a:"Fluorine"},
-  {q:"IUPAC name for CH3COOH?", a:"Ethanoic acid"}
-],
  "TV Shows": [
     { q: "What is the name of the coffee shop in Friends?", a: "Central Perk", difficulty: 0, hint: "Play on Central Park", choices: ["Central Perk", "Java Joe's", "The Grind", "Cafe Nervosa"] },
     { q: "What is the setting of Breaking Bad?", a: "Albuquerque", difficulty: 0, hint: "City in New Mexico", choices: ["Albuquerque", "Phoenix", "El Paso", "Santa Fe"] },
