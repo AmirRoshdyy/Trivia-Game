@@ -1,5 +1,5 @@
 const CATEGORIES = {
-"2020 OLYMPICS (PARIS)": [
+"2020 OLYMPICS (TOKYO)": [
 { q: "Which city hosted the 2020 Summer Olympics (held in 2021)?", a: "Tokyo", difficulty: 0, hint: "Capital of Japan.", choices: ["Osaka", "Tokyo", "Kyoto", "Nagoya"] },
 { q: "Why were the 2020 Olympics actually held in 2021?", a: "Postponed due to the COVID-19 pandemic", difficulty: 0, hint: "A global health crisis caused the delay.", choices: ["Postponed due to the COVID-19 pandemic", "Postponed due to a typhoon", "Postponed due to funding issues", "Postponed due to a venue collapse"] },
 { q: "Were spectators generally allowed to attend most events at the Tokyo 2020 Olympics?", a: "No, most events were held without spectators", difficulty: 0, hint: "Pandemic restrictions affected attendance.", choices: ["Yes, full stadiums throughout", "No, most events were held without spectators", "Only VIPs were allowed", "Only local residents were allowed"] },
