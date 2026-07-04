@@ -725,8 +725,7 @@ const CATEGORIES = {
   {q:"FYP stands for?", a:"For You Page"},
   {q:"First TikToker to 100M followers?", a:"Charli DAmelio"},
   {q:"ByteDances real-time recommendation system?", a:"Monolith"}
-  ]
-};
+  ],
 "Biology": [
   {"q": "What is the basic unit of life?", "a": "Cell", "difficulty": 0, "hint": "Everything living is made of these.", "choices": ["Atom", "Cell", "Tissue", "Organ"]},
   {"q": "What green pigment do plants use to absorb energy from sunlight?", "a": "Chlorophyll", "difficulty": 0, "hint": "It gives leaves their green color.", "choices": ["Hemoglobin", "Carotenoid", "Chlorophyll", "Melanin"]},
