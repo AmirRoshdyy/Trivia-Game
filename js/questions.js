@@ -829,3 +829,4 @@ const CATEGORIES = {
   {"q": "Which specialized embryonic structures form the definitive kidney in amniotes after the degeneration of the pronephros and mesonephros?", "a": "Metanephros", "difficulty": 9, "hint": "It develops from the ureteric bud and metanephric blastema during the fifth week of human gestation.", "choices": ["Pronephros", "Mesonephros", "Metanephros", "Wolffian duct"]},
   {"q": "What specialized protein channel allows the passage of water across lipid bilayers and contains an NPA motif that prevents proton leakage?", "a": "Aquaporin", "difficulty": 9, "hint": "Peter Agre won the 2003 Nobel Prize in Chemistry for discovering these channels.", "choices": ["Ionophore", "Connexin", "Porin", "Aquaporin"]}
 ],
+  }
