@@ -567,6 +567,706 @@ const CATEGORIES = {
 { q: "What was the precise average heart rate recorded for Alex Pereira during his UFC 300 walkout, per any published biometric data?", a: "This is intentionally impossible trivia — no such biometric data is publicly tracked or released for fighter walkouts", difficulty: 9, hint: "Biometric walkout data of this specificity has never been part of UFC broadcasts.", choices: ["This is intentionally impossible trivia — no such biometric data is publicly tracked or released for fighter walkouts", "Approximately 140 bpm", "Approximately 100 bpm", "Approximately 160 bpm"] },
 ],
 "Geography": [
+  {
+    "q": "What is the capital city of France?",
+    "a": "Paris",
+    "difficulty": 0,
+    "hint": "This city is famous for the Eiffel Tower.",
+    "choices": ["London", "Paris", "Berlin", "Madrid"]
+  },
+  {
+    "q": "Which ocean is the largest on Earth by surface area?",
+    "a": "Pacific Ocean",
+    "difficulty": 0,
+    "hint": "Its name means 'peaceful' in Portuguese.",
+    "choices": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"]
+  },
+  {
+    "q": "Which country is home to the Taj Mahal?",
+    "a": "India",
+    "difficulty": 0,
+    "hint": "It is located in the city of Agra.",
+    "choices": ["Pakistan", "Bangladesh", "Nepal", "India"]
+  },
+  {
+    "q": "What is the capital of Japan?",
+    "a": "Tokyo",
+    "difficulty": 0,
+    "hint": "It is the most populous metropolitan area in the world.",
+    "choices": ["Tokyo", "Kyoto", "Osaka", "Seoul"]
+  },
+  {
+    "q": "Which continent is Egypt primarily located on?",
+    "a": "Africa",
+    "difficulty": 0,
+    "hint": "The Nile River flows north through this continent.",
+    "choices": ["Asia", "Europe", "Africa", "South America"]
+  },
+  {
+    "q": "What is the capital of Italy?",
+    "a": "Rome",
+    "difficulty": 0,
+    "hint": "This city surrounds the Vatican City.",
+    "choices": ["Milan", "Rome", "Venice", "Florence"]
+  },
+  {
+    "q": "Which country has the largest population in South America?",
+    "a": "Brazil",
+    "difficulty": 0,
+    "hint": "Portuguese is the official language of this nation.",
+    "choices": ["Argentina", "Colombia", "Brazil", "Chile"]
+  },
+  {
+    "q": "What is the capital of the United Kingdom?",
+    "a": "London",
+    "difficulty": 0,
+    "hint": "Big Ben and the Houses of Parliament are located here.",
+    "choices": ["Dublin", "Edinburgh", "London", "Cardiff"]
+  },
+  {
+    "q": "Which continent is the largest by land area?",
+    "a": "Asia",
+    "difficulty": 0,
+    "hint": "It contains China and India.",
+    "choices": ["North America", "Africa", "Europe", "Asia"]
+  },
+  {
+    "q": "Which ocean is located on the east coast of the United States?",
+    "a": "Atlantic Ocean",
+    "difficulty": 0,
+    "hint": "It separates the Americas from Europe and Africa.",
+    "choices": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Southern Ocean"]
+  },
+  {
+    "q": "What is the smallest independent country in the world by land area?",
+    "a": "Vatican City",
+    "difficulty": 1,
+    "hint": "It is an enclave situated entirely within Rome.",
+    "choices": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"]
+  },
+  {
+    "q": "Which U.S. state is an island chain in the Pacific Ocean?",
+    "a": "Hawaii",
+    "difficulty": 1,
+    "hint": "Its capital is Honolulu.",
+    "choices": ["Alaska", "Hawaii", "California", "Florida"]
+  },
+  {
+    "q": "What is the capital of Canada?",
+    "a": "Ottawa",
+    "difficulty": 1,
+    "hint": "It is located in the province of Ontario.",
+    "choices": ["Toronto", "Vancouver", "Montreal", "Ottawa"]
+  },
+  {
+    "q": "Which mountain is the tallest in the world above sea level?",
+    "a": "Mount Everest",
+    "difficulty": 1,
+    "hint": "It is located in the Himalayas on the border of Nepal and China.",
+    "choices": ["K2", "Mount Everest", "Kangchenjunga", "Mount Kilimanjaro"]
+  },
+  {
+    "q": "Which country is famous for its maple syrup and features a maple leaf on its national flag?",
+    "a": "Canada",
+    "difficulty": 1,
+    "hint": "It is the second-largest country by total area in the world.",
+    "choices": ["United States", "Sweden", "Canada", "Norway"]
+  },
+  {
+    "q": "What is the capital of Australia?",
+    "a": "Canberra",
+    "difficulty": 1,
+    "hint": "It is located between Sydney and Melbourne.",
+    "choices": ["Sydney", "Melbourne", "Brisbane", "Canberra"]
+  },
+  {
+    "q": "Which river flows through the center of London?",
+    "a": "River Thames",
+    "difficulty": 1,
+    "hint": "The Tower Bridge crosses over this river.",
+    "choices": ["River Severn", "River Thames", "River Mersey", "River Trent"]
+  },
+  {
+    "q": "In which country can you visit the Great Pyramid of Giza?",
+    "a": "Egypt",
+    "difficulty": 1,
+    "hint": "This country connects northeast Africa with the Middle East.",
+    "choices": ["Sudan", "Jordan", "Egypt", "Iraq"]
+  },
+  {
+    "q": "Which continent is also widely considered a single country?",
+    "a": "Australia",
+    "difficulty": 1,
+    "hint": "It is surrounded by the Indian and Pacific oceans.",
+    "choices": ["Antarctica", "Australia", "Europe", "South America"]
+  },
+  {
+    "q": "What is the capital of Germany?",
+    "a": "Berlin",
+    "difficulty": 1,
+    "hint": "A historic wall once divided this city into East and West.",
+    "choices": ["Munich", "Frankfurt", "Hamburg", "Berlin"]
+  },
+  {
+    "q": "Which African country is home to Mount Kilimanjaro?",
+    "a": "Tanzania",
+    "difficulty": 2,
+    "hint": "It borders Kenya and the Indian Ocean.",
+    "choices": ["Kenya", "Tanzania", "Ethiopia", "Uganda"]
+  },
+  {
+    "q": "Which sea separates the Arabian Peninsula from northeastern Africa?",
+    "a": "Red Sea",
+    "difficulty": 2,
+    "hint": "The Suez Canal connects it to the Mediterranean Sea.",
+    "choices": ["Black Sea", "Red Sea", "Arabian Sea", "Caspian Sea"]
+  },
+  {
+    "q": "What is the capital of Spain?",
+    "a": "Madrid",
+    "difficulty": 2,
+    "hint": "It is located almost in the exact geographic center of the Iberian Peninsula.",
+    "choices": ["Barcelona", "Seville", "Madrid", "Valencia"]
+  },
+  {
+    "q": "Which South American country is long and narrow, stretching along the western Pacific coast?",
+    "a": "Chile",
+    "difficulty": 2,
+    "hint": "Its capital is Santiago.",
+    "choices": ["Peru", "Ecuador", "Argentina", "Chile"]
+  },
+  {
+    "q": "What is the capital of Russia?",
+    "a": "Moscow",
+    "difficulty": 2,
+    "hint": "The Kremlin and Red Square are located here.",
+    "choices": ["Saint Petersburg", "Moscow", "Novosibirsk", "Kazan"]
+  },
+  {
+    "q": "Which European country is geographically shaped like a high-heeled boot?",
+    "a": "Italy",
+    "difficulty": 2,
+    "hint": "Sicily sits just off the 'toe' of this peninsula.",
+    "choices": ["Greece", "Spain", "Italy", "Portugal"]
+  },
+  {
+    "q": "What is the largest hot desert in the world?",
+    "a": "Sahara Desert",
+    "difficulty": 2,
+    "hint": "It covers most of North Africa.",
+    "choices": ["Gobi Desert", "Kalahari Desert", "Sahara Desert", "Arabian Desert"]
+  },
+  {
+    "q": "What is the capital city of China?",
+    "a": "Beijing",
+    "difficulty": 2,
+    "hint": "It hosted the 2008 and 2022 Olympic Games.",
+    "choices": ["Shanghai", "Beijing", "Hong Kong", "Guangzhou"]
+  },
+  {
+    "q": "Which ocean lies directly between Africa and Australia?",
+    "a": "Indian Ocean",
+    "difficulty": 2,
+    "hint": "It is named after a large South Asian peninsula.",
+    "choices": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Southern Ocean"]
+  },
+  {
+    "q": "What is the capital of Brazil?",
+    "a": "Brasília",
+    "difficulty": 2,
+    "hint": "This planned city was inaugurated as the capital in 1960.",
+    "choices": ["Rio de Janeiro", "São Paulo", "Salvador", "Brasília"]
+  },
+  {
+    "q": "Which country has the longest total coastline in the world?",
+    "a": "Canada",
+    "difficulty": 3,
+    "hint": "Its coastline touches the Pacific, Atlantic, and Arctic Oceans.",
+    "choices": ["Russia", "Australia", "Canada", "Indonesia"]
+  },
+  {
+    "q": "What is the capital of Turkey?",
+    "a": "Ankara",
+    "difficulty": 3,
+    "hint": "It is not Istanbul, although Istanbul is the country's largest city.",
+    "choices": ["Istanbul", "Izmir", "Ankara", "Antalya"]
+  },
+  {
+    "q": "Which river is the longest in Europe?",
+    "a": "Volga River",
+    "difficulty": 3,
+    "hint": "It flows entirely within Russia and drains into the Caspian Sea.",
+    "choices": ["Danube River", "Volga River", "Rhine River", "Rhône River"]
+  },
+  {
+    "q": "What is the capital of South Korea?",
+    "a": "Seoul",
+    "difficulty": 3,
+    "hint": "The Han River flows through the center of this metropolis.",
+    "choices": ["Busan", "Incheon", "Seoul", "Daegu"]
+  },
+  {
+    "q": "Which mountain range is traditionally considered the dividing line between Europe and Asia?",
+    "a": "Ural Mountains",
+    "difficulty": 3,
+    "hint": "These mountains run roughly north to south through western Russia.",
+    "choices": ["Caucasus Mountains", "Carpathian Mountains", "Alps", "Ural Mountains"]
+  },
+  {
+    "q": "What is the capital of Argentina?",
+    "a": "Buenos Aires",
+    "difficulty": 3,
+    "hint": "Its name translates to 'Good Airs' or 'Fair Winds' in Spanish.",
+    "choices": ["Córdoba", "Buenos Aires", "Rosario", "Mendoza"]
+  },
+  {
+    "q": "In which ocean is the island nation of Madagascar located?",
+    "a": "Indian Ocean",
+    "difficulty": 3,
+    "hint": "It lies off the southeastern coast of Africa.",
+    "choices": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Southern Ocean"]
+  },
+  {
+    "q": "What is the capital of Egypt?",
+    "a": "Cairo",
+    "difficulty": 3,
+    "hint": "It is located near the Nile Delta and is the largest city in the Arab world.",
+    "choices": ["Alexandria", "Giza", "Luxor", "Cairo"]
+  },
+  {
+    "q": "Which U.S. state has the largest total land area?",
+    "a": "Alaska",
+    "difficulty": 3,
+    "hint": "It was purchased from Russia in 1867.",
+    "choices": ["Texas", "California", "Alaska", "Montana"]
+  },
+  {
+    "q": "What is the capital of Vietnam?",
+    "a": "Hanoi",
+    "difficulty": 3,
+    "hint": "It is located in the northern region of the country along the Red River.",
+    "choices": ["Ho Chi Minh City", "Da Nang", "Hanoi", "Nha Trang"]
+  },
+  {
+    "q": "Which European country is famously known as the 'Land of a Thousand Lakes'?",
+    "a": "Finland",
+    "difficulty": 4,
+    "hint": "Its capital is Helsinki.",
+    "choices": ["Sweden", "Norway", "Finland", "Iceland"]
+  },
+  {
+    "q": "What is the capital of New Zealand?",
+    "a": "Wellington",
+    "difficulty": 4,
+    "hint": "It is located at the southwestern tip of the North Island.",
+    "choices": ["Auckland", "Christchurch", "Wellington", "Hamilton"]
+  },
+  {
+    "q": "What is the capital of Thailand?",
+    "a": "Bangkok",
+    "difficulty": 4,
+    "hint": "It is known in Thai as Krung Thep Maha Nakhon.",
+    "choices": ["Chiang Mai", "Phuket", "Pattaya", "Bangkok"]
+  },
+  {
+    "q": "Which South American country is completely landlocked alongside Bolivia?",
+    "a": "Paraguay",
+    "difficulty": 4,
+    "hint": "Its capital is Asunción.",
+    "choices": ["Uruguay", "Paraguay", "Ecuador", "Guyana"]
+  },
+  {
+    "q": "What is the capital of Poland?",
+    "a": "Warsaw",
+    "difficulty": 4,
+    "hint": "The Vistula River runs through this city.",
+    "choices": ["Kraków", "Gdańsk", "Wrocław", "Warsaw"]
+  },
+  {
+    "q": "Which strait connects the Atlantic Ocean to the Mediterranean Sea and separates Spain from Morocco?",
+    "a": "Strait of Gibraltar",
+    "difficulty": 4,
+    "hint": "It is named after a famous British rock territory on the Iberian Peninsula.",
+    "choices": ["Strait of Hormuz", "Strait of Gibraltar", "Bosphorus Strait", "Strait of Malacca"]
+  },
+  {
+    "q": "What is the capital of Colombia?",
+    "a": "Bogotá",
+    "difficulty": 4,
+    "hint": "It is located high in the Andes mountains at over 2,600 meters elevation.",
+    "choices": ["Medellín", "Cali", "Cartagena", "Bogotá"]
+  },
+  {
+    "q": "Which island is the largest by area in the Mediterranean Sea?",
+    "a": "Sicily",
+    "difficulty": 4,
+    "hint": "It is an autonomous region of Italy and features Mount Etna.",
+    "choices": ["Sardinia", "Cyprus", "Crete", "Sicily"]
+  },
+  {
+    "q": "What is the capital of Switzerland?",
+    "a": "Bern",
+    "difficulty": 4,
+    "hint": "It is not Geneva or Zurich.",
+    "choices": ["Zurich", "Geneva", "Bern", "Basel"]
+  },
+  {
+    "q": "Which African country was historically known to the West as Abyssinia?",
+    "a": "Ethiopia",
+    "difficulty": 4,
+    "hint": "Its capital is Addis Ababa.",
+    "choices": ["Sudan", "Somalia", "Ethiopia", "Eritrea"]
+  },
+  {
+    "q": "What is the capital of Morocco?",
+    "a": "Rabat",
+    "difficulty": 5,
+    "hint": "It is located on the Atlantic Ocean at the mouth of the river Bou Regreg.",
+    "choices": ["Casablanca", "Marrakesh", "Fes", "Rabat"]
+  },
+  {
+    "q": "Which major river carved out the Grand Canyon in the United States?",
+    "a": "Colorado River",
+    "difficulty": 5,
+    "hint": "The Hoover Dam is built across this river.",
+    "choices": ["Mississippi River", "Rio Grande", "Colorado River", "Columbia River"]
+  },
+  {
+    "q": "What is the capital of Kenya?",
+    "a": "Nairobi",
+    "difficulty": 5,
+    "hint": "Its name comes from the Maasai phrase meaning 'cool water'.",
+    "choices": ["Mombasa", "Kisumu", "Nakuru", "Nairobi"]
+  },
+  {
+    "q": "Which country shares the Iberian Peninsula with Spain?",
+    "a": "Portugal",
+    "difficulty": 5,
+    "hint": "Its capital is Lisbon.",
+    "choices": ["France", "Portugal", "Andorra", "Italy"]
+  },
+  {
+    "q": "What is the capital of Peru?",
+    "a": "Lima",
+    "difficulty": 5,
+    "hint": "It is located in the valleys of the Chillón, Rímac, and Lurín rivers.",
+    "choices": ["Cusco", "Arequipa", "Lima", "Trujillo"]
+  },
+  {
+    "q": "Which body of water separates Australia from New Zealand?",
+    "a": "Tasman Sea",
+    "difficulty": 5,
+    "hint": "It is named after a famous Dutch explorer who sailed its waters in 1642.",
+    "choices": ["Coral Sea", "Timor Sea", "Tasman Sea", "Arafura Sea"]
+  },
+  {
+    "q": "What is the capital of Norway?",
+    "a": "Oslo",
+    "difficulty": 5,
+    "hint": "It was historically known as Christiania.",
+    "choices": ["Bergen", "Trondheim", "Stavanger", "Oslo"]
+  },
+  {
+    "q": "Which Central American country is the only one without a coastline on the Caribbean Sea?",
+    "a": "El Salvador",
+    "difficulty": 5,
+    "hint": "It borders only the Pacific Ocean, Guatemala, and Honduras.",
+    "choices": ["Honduras", "Nicaragua", "El Salvador", "Costa Rica"]
+  },
+  {
+    "q": "What is the capital of Kazakhstan?",
+    "a": "Astana",
+    "difficulty": 5,
+    "hint": "This city was formerly known as Nur-Sultan and Tselinograd.",
+    "choices": ["Almaty", "Shymkent", "Astana", "Tashkent"]
+  },
+  {
+    "q": "Which Asian country is completely landlocked between Russia to the north and China to the south?",
+    "a": "Mongolia",
+    "difficulty": 5,
+    "hint": "Its capital is Ulaanbaatar.",
+    "choices": ["Kazakhstan", "Nepal", "Bhutan", "Mongolia"]
+  },
+  {
+    "q": "What is the capital of Nigeria?",
+    "a": "Abuja",
+    "difficulty": 6,
+    "hint": "It replaced Lagos as the official capital in 1991.",
+    "choices": ["Lagos", "Kano", "Ibadan", "Abuja"]
+  },
+  {
+    "q": "Which European river flows through four national capital cities: Vienna, Bratislava, Budapest, and Belgrade?",
+    "a": "Danube River",
+    "difficulty": 6,
+    "hint": "It is the second-longest river in Europe after the Volga.",
+    "choices": ["Rhine River", "Elbe River", "Danube River", "Seine River"]
+  },
+  {
+    "q": "What is the capital of Chile?",
+    "a": "Santiago",
+    "difficulty": 6,
+    "hint": "It is situated in a valley surrounded by the snow-capped Andes and the Chilean Coast Range.",
+    "choices": ["Valparaíso", "Concepción", "Santiago", "Antofagasta"]
+  },
+  {
+    "q": "Which country exercises sovereignty over the Galápagos Islands?",
+    "a": "Ecuador",
+    "difficulty": 6,
+    "hint": "The islands are situated in the Pacific Ocean about 1,000 km off this country's coast.",
+    "choices": ["Colombia", "Ecuador", "Peru", "Costa Rica"]
+  },
+  {
+    "q": "What is the capital of Malaysia?",
+    "a": "Kuala Lumpur",
+    "difficulty": 6,
+    "hint": "The iconic Petronas Twin Towers dominate its skyline.",
+    "choices": ["George Town", "Johor Bahru", "Kuala Lumpur", "Malacca"]
+  },
+  {
+    "q": "Which large semi-arid sandy savanna covers much of Botswana, eastern Namibia, and northern South Africa?",
+    "a": "Kalahari Desert",
+    "difficulty": 6,
+    "hint": "The San people have lived in this desert region for thousands of years.",
+    "choices": ["Namib Desert", "Kalahari Desert", "Karoo", "Sahara Desert"]
+  },
+  {
+    "q": "What is the capital of Ukraine?",
+    "a": "Kyiv",
+    "difficulty": 6,
+    "hint": "It is located along the Dnieper River.",
+    "choices": ["Kharkiv", "Odesa", "Lviv", "Kyiv"]
+  },
+  {
+    "q": "Which inland sea connects to the Mediterranean via the Dardanelles, the Sea of Marmara, and the Bosphorus?",
+    "a": "Black Sea",
+    "difficulty": 6,
+    "hint": "It is bordered by Ukraine, Russia, Georgia, Turkey, Bulgaria, and Romania.",
+    "choices": ["Caspian Sea", "Baltic Sea", "Black Sea", "Adriatic Sea"]
+  },
+  {
+    "q": "What is the capital of Malta?",
+    "a": "Valletta",
+    "difficulty": 6,
+    "hint": "It is the smallest national capital in the European Union by area.",
+    "choices": ["Mdina", "Sliema", "Valletta", "Victoria"]
+  },
+  {
+    "q": "Which African country entirely surrounds the enclave kingdom of Lesotho?",
+    "a": "South Africa",
+    "difficulty": 6,
+    "hint": "It has three capital cities: Pretoria, Cape Town, and Bloemfontein.",
+    "choices": ["Zimbabwe", "Mozambique", "Botswana", "South Africa"]
+  },
+  {
+    "q": "What is the capital of Iceland?",
+    "a": "Reykjavik",
+    "difficulty": 7,
+    "hint": "It is the world's northernmost capital of a sovereign state.",
+    "choices": ["Akureyri", "Keflavik", "Hafnarfjörður", "Reykjavik"]
+  },
+  {
+    "q": "Which body of water is situated directly between the Arabian Peninsula and Iran?",
+    "a": "Persian Gulf",
+    "difficulty": 7,
+    "hint": "It connects to the Gulf of Oman through the Strait of Hormuz.",
+    "choices": ["Gulf of Aden", "Persian Gulf", "Red Sea", "Gulf of Aqaba"]
+  },
+  {
+    "q": "What is the capital of Ecuador?",
+    "a": "Quito",
+    "difficulty": 7,
+    "hint": "It is the closest national capital city to the Equator.",
+    "choices": ["Guayaquil", "Cuenca", "Quito", "Ambato"]
+  },
+  {
+    "q": "In which Middle Eastern country is the ancient archaeological rose-red city of Petra located?",
+    "a": "Jordan",
+    "difficulty": 7,
+    "hint": "This country's capital is Amman.",
+    "choices": ["Lebanon", "Syria", "Jordan", "Iraq"]
+  },
+  {
+    "q": "What is the capital of Uruguay?",
+    "a": "Montevideo",
+    "difficulty": 7,
+    "hint": "It is situated on the northern bank of the Río de la Plata.",
+    "choices": ["Punta del Este", "Salto", "Montevideo", "Paysandú"]
+  },
+  {
+    "q": "Which archipelago in the South Atlantic Ocean is known in Spanish-speaking countries as the Islas Malvinas?",
+    "a": "Falkland Islands",
+    "difficulty": 7,
+    "hint": "Stanley is the capital of this British Overseas Territory.",
+    "choices": ["South Georgia", "Falkland Islands", "Tristan da Cunha", "Canary Islands"]
+  },
+  {
+    "q": "What is the capital of Bangladesh?",
+    "a": "Dhaka",
+    "difficulty": 7,
+    "hint": "It is known as the 'City of Mosques' and the 'Rickshaw Capital of the World'.",
+    "choices": ["Chittagong", "Khulna", "Sylhet", "Dhaka"]
+  },
+  {
+    "q": "What is the highest mountain peak in North America?",
+    "a": "Denali",
+    "difficulty": 7,
+    "hint": "Located in Alaska, it was officially known as Mount McKinley from 1917 to 2015.",
+    "choices": ["Mount Logan", "Mount Whitney", "Mount Rainier", "Denali"]
+  },
+  {
+    "q": "What is the capital of Liechtenstein?",
+    "a": "Vaduz",
+    "difficulty": 7,
+    "hint": "The Prince's castle overlooks this town from a hilltop.",
+    "choices": ["Schaan", "Triesen", "Balzers", "Vaduz"]
+  },
+  {
+    "q": "What is the capital of Bhutan?",
+    "a": "Thimphu",
+    "difficulty": 7,
+    "hint": "It is one of the only capital cities in the world that does not use traffic lights.",
+    "choices": ["Paro", "Punakha", "Thimphu", "Phuntsholing"]
+  },
+  {
+    "q": "Which strait separates the North Island and South Island of New Zealand?",
+    "a": "Cook Strait",
+    "difficulty": 8,
+    "hint": "It is named after the British explorer who sailed through it in 1770.",
+    "choices": ["Bass Strait", "Foveaux Strait", "Torres Strait", "Cook Strait"]
+  },
+  {
+    "q": "What is the capital of Senegal?",
+    "a": "Dakar",
+    "difficulty": 8,
+    "hint": "It is located on the Cap-Vert peninsula, the westernmost point of mainland Africa.",
+    "choices": ["Saint-Louis", "Touba", "Thiès", "Dakar"]
+  },
+  {
+    "q": "Which Central Asian country is doubly landlocked, meaning it is surrounded entirely by other landlocked nations?",
+    "a": "Uzbekistan",
+    "difficulty": 8,
+    "hint": "The only other doubly landlocked country in the world is Liechtenstein.",
+    "choices": ["Kazakhstan", "Turkmenistan", "Tajikistan", "Uzbekistan"]
+  },
+  {
+    "q": "What is the capital of Paraguay?",
+    "a": "Asunción",
+    "difficulty": 8,
+    "hint": "It sits on the left bank of the Paraguay River.",
+    "choices": ["Ciudad del Este", "Encarnación", "Asunción", "Luque"]
+  },
+  {
+    "q": "Which African nation is the smallest country on mainland Africa by total land area?",
+    "a": "The Gambia",
+    "difficulty": 8,
+    "hint": "It is almost completely surrounded by Senegal, except for its Atlantic coast.",
+    "choices": ["Eswatini", "Djibouti", "The Gambia", "Rwanda"]
+  },
+  {
+    "q": "What is the capital of Madagascar?",
+    "a": "Antananarivo",
+    "difficulty": 8,
+    "hint": "The city's name means 'City of the Thousand' in the Malagasy language.",
+    "choices": ["Toamasina", "Antsirabe", "Fianarantsoa", "Antananarivo"]
+  },
+  {
+    "q": "Which mountain range extends approximately 2,500 km through Morocco, Algeria, and Tunisia?",
+    "a": "Atlas Mountains",
+    "difficulty": 8,
+    "hint": "Its highest peak is Toubkal in southwestern Morocco.",
+    "choices": ["Ahaggar Mountains", "Tibesti Mountains", "Atlas Mountains", "Drakensberg"]
+  },
+  {
+    "q": "What is the capital of Mongolia?",
+    "a": "Ulaanbaatar",
+    "difficulty": 8,
+    "hint": "It is the coldest national capital city in the world by average annual temperature.",
+    "choices": ["Erdenet", "Darkhan", "Choibalsan", "Ulaanbaatar"]
+  },
+  {
+    "q": "Which major river is known as the 'Father of African Rivers' and flows through Timbuktu before emptying into the Gulf of Guinea?",
+    "a": "Niger River",
+    "difficulty": 8,
+    "hint": "Two West African nations are named after this river.",
+    "choices": ["Congo River", "Zambezi River", "Senegal River", "Niger River"]
+  },
+  {
+    "q": "What is the capital of Sri Lanka (serving as the executive and judicial capital)?",
+    "a": "Colombo",
+    "difficulty": 8,
+    "hint": "The nearby suburb of Sri Jayawardenepura Kotte is the legislative capital.",
+    "choices": ["Kandy", "Galle", "Jaffna", "Colombo"]
+  },
+  {
+    "q": "What is the capital of the Pacific island nation of Palau?",
+    "a": "Ngerulmud",
+    "difficulty": 9,
+    "hint": "Located in the state of Melekeok, it is the least populous national capital in the world.",
+    "choices": ["Koror", "Ngerulmud", "Palikir", "Majuro"]
+  },
+  {
+    "q": "Which UK overseas territory in the South Atlantic is the most remote permanently inhabited archipelago in the world without an airport?",
+    "a": "Tristan da Cunha",
+    "difficulty": 9,
+    "hint": "The main settlement is named Edinburgh of the Seven Seas.",
+    "choices": ["Ascension Island", "Pitcairn Islands", "Saint Helena", "Tristan da Cunha"]
+  },
+  {
+    "q": "What is the capital of Mauritania?",
+    "a": "Nouakchott",
+    "difficulty": 9,
+    "hint": "Its name means 'place of the winds' in the Berber language.",
+    "choices": ["Nouadhibou", "Atar", "Kiffa", "Nouakchott"]
+  },
+  {
+    "q": "Which strait is the primary shipping channel between the Indian Ocean and the Pacific Ocean, separating the Malay Peninsula from Sumatra?",
+    "a": "Strait of Malacca",
+    "difficulty": 9,
+    "hint": "It connects the Andaman Sea with the South China Sea.",
+    "choices": ["Sunda Strait", "Lombok Strait", "Strait of Malacca", "Makassar Strait"]
+  },
+  {
+    "q": "What is the political capital of Burundi, established in 2018 to replace Bujumbura?",
+    "a": "Gitega",
+    "difficulty": 9,
+    "hint": "It is situated in the central geographical region of the country.",
+    "choices": ["Ngozi", "Rumonge", "Gitega", "Muyinga"]
+  },
+  {
+    "q": "Which island nation is the only sovereign country in the world situated across all four hemispheres (North, South, East, and West)?",
+    "a": "Kiribati",
+    "difficulty": 9,
+    "hint": "It spans the Equator and the 180th meridian in the Pacific Ocean.",
+    "choices": ["Tuvalu", "Fiji", "Samoa", "Kiribati"]
+  },
+  {
+    "q": "What is the capital of Tajikistan?",
+    "a": "Dushanbe",
+    "difficulty": 9,
+    "hint": "The city's name translates to 'Monday' in the Persian language.",
+    "choices": ["Khujand", "Kulob", "Bokhtar", "Dushanbe"]
+  },
+  {
+    "q": "What is the name of the highest mountain peak in Antarctica?",
+    "a": "Mount Vinson",
+    "difficulty": 9,
+    "hint": "It is located in the Sentinel Range of the Ellsworth Mountains.",
+    "choices": ["Mount Erebus", "Mount Vinson", "Mount Sidley", "Mount Kirkpatrick"]
+  },
+  {
+    "q": "What is the capital of Eritrea?",
+    "a": "Asmara",
+    "difficulty": 9,
+    "hint": "It is celebrated for its well-preserved modernist and Art Deco Italian architecture.",
+    "choices": ["Keren", "Massawa", "Asmara", "Assab"]
+  },
+  {
+    "q": "Which endorheic body of water between Kazakhstan and Uzbekistan was once the fourth-largest lake in the world before largely shrinking away?",
+    "a": "Aral Sea",
+    "difficulty": 9,
+    "hint": "Soviet irrigation projects in the 1960s diverted the rivers that fed it.",
+    "choices": ["Lake Balkhash", "Aral Sea", "Caspian Sea", "Lake Baikal"]
+  }
     { q: "What is the capital of France?", a: "Paris", difficulty: 0, hint: "City of light", choices: ["Paris", "Lyon", "Marseille", "Toulouse"] },
     { q: "Which continent is Egypt in?", a: "Africa", difficulty: 0, hint: "Home to the Sahara", choices: ["Africa", "Asia", "Europe", "Middle East"] },
     { q: "What is the longest river in the world?", a: "Nile", difficulty: 0, hint: "Flows through Egypt", choices: ["Nile", "Amazon", "Mississippi", "Yangtze"] },
@@ -727,3 +1427,207 @@ const CATEGORIES = {
   {q:"ByteDances real-time recommendation system?", a:"Monolith"}
   ]
 };
+"Biology": [
+  {"q": "What is the basic unit of life?", "a": "Cell", "difficulty": 0, "hint": "Everything living is made of these.", "choices": ["Atom", "Cell", "Tissue", "Organ"]},
+  {"q": "What green pigment do plants use to absorb energy from sunlight?", "a": "Chlorophyll", "difficulty": 0, "hint": "It gives leaves their green color.", "choices": ["Hemoglobin", "Carotenoid", "Chlorophyll", "Melanin"]},
+  {"q": "Which gas do plants primarily absorb from the atmosphere for photosynthesis?", "a": "Carbon dioxide", "difficulty": 0, "hint": "Humans exhale this gas when breathing out.", "choices": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon dioxide"]},
+  {"q": "Which human organ is primarily responsible for pumping blood throughout the body?", "a": "Heart", "difficulty": 0, "hint": "It beats roughly 100,000 times a day.", "choices": ["Heart", "Brain", "Lungs", "Liver"]},
+  {"q": "What type of animal is a human?", "a": "Mammal", "difficulty": 0, "hint": "Warm-blooded vertebrates that nurse their young.", "choices": ["Reptile", "Mammal", "Amphibian", "Bird"]},
+  {"q": "How many bones are in the adult human skeleton?", "a": "206", "difficulty": 0, "hint": "Babies are born with around 270, but many fuse together.", "choices": ["150", "300", "206", "102"]},
+  {"q": "Which organ in the human body is primarily responsible for filtering blood and producing urine?", "a": "Kidney", "difficulty": 0, "hint": "Most people have two of these bean-shaped organs.", "choices": ["Stomach", "Pancreas", "Spleen", "Kidney"]},
+  {"q": "What is the common name for the larynx?", "a": "Voice box", "difficulty": 0, "hint": "It contains your vocal cords.", "choices": ["Voice box", "Windpipe", "Food pipe", "Throat"]},
+  {"q": "What cell part is commonly known as the powerhouse of the cell?", "a": "Mitochondria", "difficulty": 0, "hint": "It generates most of the cell's ATP supply.", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"]},
+  {"q": "What shape is a DNA molecule?", "a": "Double helix", "difficulty": 0, "hint": "It looks like a twisted ladder.", "choices": ["Single loop", "Triple helix", "Double helix", "Flat sheet"]},
+  {"q": "Which blood cells are primarily responsible for fighting infections?", "a": "White blood cells", "difficulty": 1, "hint": "They are a key part of your immune system.", "choices": ["Red blood cells", "Platelets", "Plasma", "White blood cells"]},
+  {"q": "What is the largest organ of the human body?", "a": "Skin", "difficulty": 1, "hint": "It acts as the body's primary external barrier.", "choices": ["Skin", "Liver", "Brain", "Large intestine"]},
+  {"q": "Which vitamin is produced by the human skin when exposed to sunlight?", "a": "Vitamin D", "difficulty": 1, "hint": "It is essential for calcium absorption and bone health.", "choices": ["Vitamin A", "Vitamin D", "Vitamin C", "Vitamin B12"]},
+  {"q": "What are the four blood groups in the ABO system?", "a": "A, B, AB, and O", "difficulty": 1, "hint": "They are determined by the presence or absence of specific antigens.", "choices": ["A, B, C, and D", "A, B, AB, and O", "X, Y, Z, and O", "Pos, Neg, Null, and All"]},
+  {"q": "Which organ system includes the brain and spinal cord?", "a": "Nervous system", "difficulty": 1, "hint": "It sends electrical signals throughout the body.", "choices": ["Circulatory system", "Digestive system", "Nervous system", "Endocrine system"]},
+  {"q": "What kind of organism is yeast?", "a": "Fungus", "difficulty": 1, "hint": "It is a single-celled organism used in baking bread.", "choices": ["Bacteria", "Virus", "Algae", "Fungus"]},
+  {"q": "How many chambers does a normal human heart have?", "a": "Four", "difficulty": 1, "hint": "Two atria and two ventricles.", "choices": ["Four", "Two", "Three", "Six"]},
+  {"q": "What is the primary function of red blood cells?", "a": "Transporting oxygen", "difficulty": 1, "hint": "They use hemoglobin to carry this vital gas from the lungs.", "choices": ["Fighting infection", "Transporting oxygen", "Clotting blood", "Producing hormones"]},
+  {"q": "Which process do plants use to make food using sunlight?", "a": "Photosynthesis", "difficulty": 1, "hint": "Its name comes from the Greek words for 'light' and 'putting together'.", "choices": ["Respiration", "Fermentation", "Photosynthesis", "Transpiration"]},
+  {"q": "What is the name of the long bone in the upper arm?", "a": "Humerus", "difficulty": 1, "hint": "Hitting your 'funny bone' actually impacts the nerve running along this bone.", "choices": ["Radius", "Ulna", "Femur", "Humerus"]},
+  {"q": "What is the universal blood donor type?", "a": "O negative", "difficulty": 2, "hint": "This blood lacks A, B, and Rh antigens.", "choices": ["O negative", "AB positive", "A negative", "O positive"]},
+  {"q": "What part of the human eye controls the amount of light that enters?", "a": "Iris", "difficulty": 2, "hint": "It is the colored part of your eye surrounding the pupil.", "choices": ["Cornea", "Iris", "Retina", "Lens"]},
+  {"q": "Which macromolecule is made up of amino acid building blocks?", "a": "Protein", "difficulty": 2, "hint": "Muscles and enzymes are composed primarily of these.", "choices": ["Lipid", "Carbohydrate", "Protein", "Nucleic acid"]},
+  {"q": "What is the name of the process by which cell division results in two identical daughter cells?", "a": "Mitosis", "difficulty": 2, "hint": "It is used for somatic tissue growth and repair.", "choices": ["Meiosis", "Binary fission", "Budding", "Mitosis"]},
+  {"q": "Which hormone is produced by the pancreas to regulate blood glucose levels?", "a": "Insulin", "difficulty": 2, "hint": "People with Type 1 diabetes must take this hormone synthetically.", "choices": ["Insulin", "Glucagon", "Cortisol", "Adrenaline"]},
+  {"q": "What is the longest and strongest bone in the human body?", "a": "Femur", "difficulty": 2, "hint": "It is located in your thigh.", "choices": ["Tibia", "Femur", "Fibula", "Pelvis"]},
+  {"q": "What structure connects muscles to bones?", "a": "Tendon", "difficulty": 2, "hint": "The Achilles is a famous example of one.", "choices": ["Ligament", "Cartilage", "Tendon", "Fascia"]},
+  {"q": "Which structure connects bones to other bones at a joint?", "a": "Ligament", "difficulty": 2, "hint": "An ACL tear in the knee involves one of these.", "choices": ["Tendon", "Muscle", "Fascia", "Ligament"]},
+  {"q": "What is the main respiratory muscle located below the lungs?", "a": "Diaphragm", "difficulty": 2, "hint": "Spasms in this dome-shaped muscle cause hiccups.", "choices": ["Diaphragm", "Intercostal", "Pectoral", "Abdominal"]},
+  {"q": "What term describes animals that regulate their own body temperature internally?", "a": "Endotherms", "difficulty": 2, "hint": "Also commonly referred to as 'warm-blooded'.", "choices": ["Ectotherms", "Endotherms", "Poikilotherms", "Mesotherms"]},
+  {"q": "In which organelle does photosynthesis take place?", "a": "Chloroplast", "difficulty": 3, "hint": "They contain thylakoid membranes stacked into grana.", "choices": ["Mitochondria", "Ribosome", "Chloroplast", "Nucleus"]},
+  {"q": "What nitrogenous base pairs with adenine in DNA?", "a": "Thymine", "difficulty": 3, "hint": "In RNA, it is replaced by uracil.", "choices": ["Cytosine", "Guanine", "Uracil", "Thymine"]},
+  {"q": "Which blood type is known as the universal recipient?", "a": "AB positive", "difficulty": 3, "hint": "This blood type possesses all standard red blood cell antigens.", "choices": ["AB positive", "O negative", "A positive", "B negative"]},
+  {"q": "What is the name of the protective outer layer of a plant cell?", "a": "Cell wall", "difficulty": 3, "hint": "It is composed primarily of cellulose and is absent in animal cells.", "choices": ["Plasma membrane", "Cell wall", "Capsule", "Cuticle"]},
+  {"q": "Which human brain lobe is primarily responsible for vision processing?", "a": "Occipital lobe", "difficulty": 3, "hint": "It is located at the very back of the cerebral cortex.", "choices": ["Frontal lobe", "Parietal lobe", "Occipital lobe", "Temporal lobe"]},
+  {"q": "What digestive enzyme produced in the mouth begins the breakdown of starch?", "a": "Amylase", "difficulty": 3, "hint": "It is found in your saliva.", "choices": ["Pepsin", "Lipase", "Trypsin", "Amylase"]},
+  {"q": "What is the scientific term for programmed cell death?", "a": "Apoptosis", "difficulty": 3, "hint": "It prevents the proliferation of damaged cells.", "choices": ["Apoptosis", "Necrosis", "Lysis", "Phagocytosis"]},
+  {"q": "Which organ stores bile produced by the liver?", "a": "Gallbladder", "difficulty": 3, "hint": "It releases bile into the small intestine to aid lipid digestion.", "choices": ["Liver", "Gallbladder", "Pancreas", "Duodenum"]},
+  {"q": "What is the basic functional unit of the kidney?", "a": "Nephron", "difficulty": 3, "hint": "Each kidney contains about one million of these microscopic filters.", "choices": ["Neuron", "Alveolus", "Nephron", "Villus"]},
+  {"q": "How many pairs of chromosomes does a normal human somatic cell contain?", "a": "23", "difficulty": 3, "hint": "This makes for a total of 46 individual chromosomes.", "choices": ["46", "22", "44", "23"]},
+  {"q": "Which part of the brain is primarily responsible for coordination, balance, and motor control?", "a": "Cerebellum", "difficulty": 4, "hint": "Its name means 'little brain' in Latin.", "choices": ["Cerebellum", "Cerebrum", "Medulla oblongata", "Hypothalamus"]},
+  {"q": "What structure prevents food from entering the trachea during swallowing?", "a": "Epiglottis", "difficulty": 4, "hint": "It is a flap of cartilage located at the root of the tongue.", "choices": ["Uvula", "Epiglottis", "Larynx", "Pharynx"]},
+  {"q": "Which type of RNA carries the genetic code from DNA to the ribosome?", "a": "mRNA", "difficulty": 4, "hint": "The 'm' stands for messenger.", "choices": ["tRNA", "rRNA", "mRNA", "snRNA"]},
+  {"q": "What is the name of the fluid-filled cavity in a blastocyst?", "a": "Blastocoel", "difficulty": 4, "hint": "It forms during early embryonic development before gastrulation.", "choices": ["Archenteron", "Coelom", "Blastopore", "Blastocoel"]},
+  {"q": "Which valve separates the left atrium from the left ventricle in the human heart?", "a": "Mitral valve", "difficulty": 4, "hint": "It is also known as the bicuspid valve.", "choices": ["Mitral valve", "Tricuspid valve", "Aortic valve", "Pulmonary valve"]},
+  {"q": "What is the primary function of the myelin sheath on neurons?", "a": "Increasing signal conduction speed", "difficulty": 4, "hint": "It acts as electrical insulation around the axon.", "choices": ["Producing neurotransmitters", "Increasing signal conduction speed", "Storing calcium", "Filtering metabolic waste"]},
+  {"q": "What type of bond holds the two strands of a DNA molecule together across bases?", "a": "Hydrogen bond", "difficulty": 4, "hint": "These relatively weak bonds allow the helix to unzip during replication.", "choices": ["Covalent bond", "Ionic bond", "Hydrogen bond", "Peptide bond"]},
+  {"q": "Which enzyme is responsible for unzipping the DNA double helix during replication?", "a": "DNA helicase", "difficulty": 4, "hint": "It breaks the hydrogen bonds between complementary base pairs.", "choices": ["DNA polymerase", "RNA primase", "DNA ligase", "DNA helicase"]},
+  {"q": "What is the terminal electron acceptor in the mitochondrial electron transport chain?", "a": "Oxygen", "difficulty": 4, "hint": "When it accepts electrons and protons, it forms water.", "choices": ["Oxygen", "Water", "NAD+", "Pyruvate"]},
+  {"q": "Which vitamin is essential for blood clotting?", "a": "Vitamin K", "difficulty": 4, "hint": "It is required for the synthesis of prothrombin in the liver.", "choices": ["Vitamin A", "Vitamin K", "Vitamin E", "Vitamin B6"]},
+  {"q": "What is the name of the process where RNA is synthesized from a DNA template?", "a": "Transcription", "difficulty": 5, "hint": "It is the first step of gene expression, preceded by translation.", "choices": ["Translation", "Replication", "Transcription", "Transduction"]},
+  {"q": "Which cranial nerve is responsible for transmitting visual information from the retina to the brain?", "a": "Optic nerve", "difficulty": 5, "hint": "It is designated as Cranial Nerve II.", "choices": ["Olfactory nerve", "Oculomotor nerve", "Vagus nerve", "Optic nerve"]},
+  {"q": "What is the net ATP yield from the glycolysis of one molecule of glucose?", "a": "2 ATP", "difficulty": 5, "hint": "Four are produced in total, but two are consumed during the preparatory phase.", "choices": ["2 ATP", "4 ATP", "36 ATP", "38 ATP"]},
+  {"q": "Which type of white blood cell matures in the thymus gland?", "a": "T cell", "difficulty": 5, "hint": "They are central to cell-mediated adaptive immunity.", "choices": ["B cell", "T cell", "Macrophage", "Neutrophil"]},
+  {"q": "What is the structural polysaccharide found in the exoskeletons of insects and crustaceans?", "a": "Chitin", "difficulty": 5, "hint": "It is also a major component of fungal cell walls.", "choices": ["Cellulose", "Starch", "Chitin", "Glycogen"]},
+  {"q": "Which cell type in the stomach secretes hydrochloric acid?", "a": "Parietal cells", "difficulty": 5, "hint": "They also secrete intrinsic factor, which is essential for Vitamin B12 absorption.", "choices": ["Chief cells", "Goblet cells", "G cells", "Parietal cells"]},
+  {"q": "What term describes a mutation that changes an amino acid codon into a stop codon?", "a": "Nonsense mutation", "difficulty": 5, "hint": "This results in premature termination of translation and a truncated protein.", "choices": ["Nonsense mutation", "Missense mutation", "Silent mutation", "Frameshift mutation"]},
+  {"q": "Which hormone, secreted by the posterior pituitary, stimulates uterine contractions during childbirth?", "a": "Oxytocin", "difficulty": 5, "hint": "It is often colloquially referred to as the 'love' or 'bonding' hormone.", "choices": ["Prolactin", "Oxytocin", "Vasopressin", "Progesterone"]},
+  {"q": "What is the name of the pacemaker of the human heart?", "a": "Sinoatrial node", "difficulty": 5, "hint": "It is located in the upper wall of the right atrium.", "choices": ["Atrioventricular node", "Bundle of His", "Sinoatrial node", "Purkinje fibers"]},
+  {"q": "Which phase of cell division involves the separation of sister chromatids to opposite poles?", "a": "Anaphase", "difficulty": 5, "hint": "It occurs right after metaphase.", "choices": ["Prophase", "Metaphase", "Telophase", "Anaphase"]},
+  {"q": "What primary immunoglobulin is found in mucosal secretions such as saliva, tears, and breast milk?", "a": "IgA", "difficulty": 6, "hint": "It plays a critical role in mucosal immunity.", "choices": ["IgA", "IgG", "IgM", "IgE"]},
+  {"q": "Which enzyme synthesized by retroviruses converts single-stranded RNA into double-stranded DNA?", "a": "Reverse transcriptase", "difficulty": 6, "hint": "HIV relies heavily on this enzyme to integrate into host genomes.", "choices": ["RNA polymerase", "Reverse transcriptase", "Integrase", "Protease"]},
+  {"q": "What is the functional unit of contraction in a skeletal muscle fiber?", "a": "Sarcomere", "difficulty": 6, "hint": "It is defined as the segment between two neighboring Z-discs.", "choices": ["Myofibril", "Motor unit", "Sarcomere", "Sarcolemma"]},
+  {"q": "Which metabolic cycle occurs in the matrix of mitochondria to generate NADH and FADH2?", "a": "Krebs cycle", "difficulty": 6, "hint": "It is also known as the citric acid cycle or tricarboxylic acid (TCA) cycle.", "choices": ["Calvin cycle", "Glycolysis", "Urea cycle", "Krebs cycle"]},
+  {"q": "What ion rushes into a neuron during the depolarization phase of an action potential?", "a": "Sodium", "difficulty": 6, "hint": "Voltage-gated channels open to let this positively charged ion flood inward.", "choices": ["Sodium", "Potassium", "Calcium", "Chloride"]},
+  {"q": "Which structure in bacteria allows for the transfer of genetic material during conjugation?", "a": "Pilus", "difficulty": 6, "hint": "It is a hair-like appendage found on the surface of many bacteria.", "choices": ["Flagellum", "Pilus", "Capsule", "Endospore"]},
+  {"q": "What is the name of the sensory receptor in the inner ear responsible for hearing?", "a": "Organ of Corti", "difficulty": 6, "hint": "It is situated inside the coiled cochlea and contains specialized hair cells.", "choices": ["Vestibular system", "Semicircular canals", "Organ of Corti", "Tympanic membrane"]},
+  {"q": "Which class of enzymes catalyzes the rearrangement of bonds within a molecule without changing its chemical formula?", "a": "Isomerases", "difficulty": 6, "hint": "An example is phosphoglucoisomerase in glycolysis.", "choices": ["Hydrolases", "Oxidoreductases", "Transferases", "Isomerases"]},
+  {"q": "What term describes the phenomenon where one gene influences multiple, seemingly unrelated phenotypic traits?", "a": "Pleiotropy", "difficulty": 6, "hint": "Phenylketonuria (PKU) is a classic human example of this condition.", "choices": ["Pleiotropy", "Epistasis", "Codominance", "Polygenic inheritance"]},
+  {"q": "Which embryonic germ layer gives rise to the nervous system and epidermis?", "a": "Ectoderm", "difficulty": 6, "hint": "It is the outermost of the three primary germ layers.", "choices": ["Mesoderm", "Ectoderm", "Endoderm", "Trophoblast"]},
+  {"q": "What specific molecule binds to troponin in skeletal muscle to initiate muscle contraction by shifting tropomyosin?", "a": "Calcium ion", "difficulty": 7, "hint": "It is stored inside the sarcoplasmic reticulum before release.", "choices": ["Sodium ion", "Potassium ion", "Calcium ion", "Magnesium ion"]},
+  {"q": "Which photosynthetic pathway utilizes the enzyme PEP carboxylase to fix carbon dioxide into a four-carbon compound at night?", "a": "CAM pathway", "difficulty": 7, "hint": "It is commonly used by cacti and pineapples to minimize water loss.", "choices": ["C3 pathway", "C4 pathway", "Photorespiration", "CAM pathway"]},
+  {"q": "What is the name of the specialized junctions between cardiac muscle cells that allow for rapid electrical signaling?", "a": "Intercalated discs", "difficulty": 7, "hint": "They contain gap junctions and desmosomes to coordinate heart beats.", "choices": ["Intercalated discs", "Desmosomes", "Gap junctions", "Tight junctions"]},
+  {"q": "Which transcription factor protein is famously known as the 'guardian of the genome' due to its role in cell cycle arrest and DNA repair?", "a": "p53", "difficulty": 7, "hint": "It is mutated in approximately 50% of all human cancers.", "choices": ["BRCA1", "p53", "MYC", "RAS"]},
+  {"q": "What physiological phenomenon describes the decrease in hemoglobin's affinity for oxygen in response to lowered pH or increased carbon dioxide?", "a": "Bohr effect", "difficulty": 7, "hint": "It facilitates oxygen release in actively respiring tissues.", "choices": ["Haldane effect", "Root effect", "Bohr effect", "Hill effect"]},
+  {"q": "Which lysosomal enzyme deficiency is responsible for the neurodegenerative disorder Tay-Sachs disease?", "a": "Hexosaminidase A", "difficulty": 7, "hint": "The deficiency causes toxic buildup of GM2 gangliosides in neurons.", "choices": ["Glucocerebrosidase", "Sphingomyelinase", "Alpha-galactosidase", "Hexosaminidase A"]},
+  {"q": "What type of inhibition occurs when an inhibitor binds to an enzyme at a site other than the active site, reducing its catalytic activity?", "a": "Non-competitive inhibition", "difficulty": 7, "hint": "This changes the enzyme's conformation without altering substrate binding affinity.", "choices": ["Non-competitive inhibition", "Competitive inhibition", "Uncompetitive inhibition", "Allosteric activation"]},
+  {"q": "Which vascular tissue in plants is composed of dead cells like tracheids and vessel elements that transport water upward?", "a": "Xylem", "difficulty": 7, "hint": "Wood is composed almost entirely of this secondary tissue.", "choices": ["Phloem", "Xylem", "Cambium", "Parenchyma"]},
+  {"q": "What is the primary function of the Leydig cells located in the testes?", "a": "Testosterone production", "difficulty": 7, "hint": "They are stimulated by luteinizing hormone (LH) from the anterior pituitary.", "choices": ["Sperm production", "Inhibin secretion", "Testosterone production", "Estrogen synthesis"]},
+  {"q": "Which neuroglial cells are responsible for producing cerebrospinal fluid within the ventricles of the brain?", "a": "Ependymal cells", "difficulty": 7, "hint": "They are ciliated epithelial-like cells lining the choroid plexus.", "choices": ["Astrocytes", "Microglia", "Oligodendrocytes", "Ependymal cells"]},
+  {"q": "Which specific bacterial enzyme is targeted by the antibiotic ciprofloxacin, interfering with DNA supercoiling?", "a": "DNA gyrase", "difficulty": 8, "hint": "It is a type II topoisomerase essential for bacterial DNA replication.", "choices": ["DNA gyrase", "RNA polymerase", "Topoisomerase I", "DNA ligase"]},
+  {"q": "What is the molecular mechanism by which siRNA and miRNA silence gene expression post-transcriptionally?", "a": "RNA interference", "difficulty": 8, "hint": "This pathway involves the RISC complex and Dicer enzyme.", "choices": ["DNA methylation", "RNA interference", "Histone acetylation", "Alternative splicing"]},
+  {"q": "Which intermediate filament protein is characteristically expressed in epithelial cells and used as a tumor marker for carcinomas?", "a": "Cytokeratin", "difficulty": 8, "hint": "Vimentin is similarly used for mesenchymal cells.", "choices": ["Vimentin", "Desmin", "Cytokeratin", "Neurofilament"]},
+  {"q": "What principle states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of evolutionary influences?", "a": "Hardy-Weinberg equilibrium", "difficulty": 8, "hint": "It relies on assumptions like random mating and an infinitely large population size.", "choices": ["Mendelian inheritance", "Competitive exclusion principle", "Batesian mimicry", "Hardy-Weinberg equilibrium"]},
+  {"q": "Which cellular receptor pathway involves seven transmembrane domains and utilizes heterotrimeric GTP-binding proteins for signal transduction?", "a": "G protein-coupled receptors", "difficulty": 8, "hint": "They represent the target of roughly 30-50% of modern medicinal drugs.", "choices": ["G protein-coupled receptors", "Receptor tyrosine kinases", "Ligand-gated ion channels", "Nuclear receptors"]},
+  {"q": "What is the name of the phenomenon where an active allele depends on whether it was inherited from the mother or the father due to DNA methylation?", "a": "Genomic imprinting", "difficulty": 8, "hint": "Prader-Willi and Angelman syndromes are classic examples of errors in this process.", "choices": ["X-inactivation", "Genomic imprinting", "Maternal effect", "Epistasis"]},
+  {"q": "Which specific enzyme catalyzes the peptide bond formation during translation and is actually a ribozyme embedded in the large ribosomal subunit?", "a": "Peptidyl transferase", "difficulty": 8, "hint": "It is composed of 23S rRNA in prokaryotes and 28S rRNA in eukaryotes.", "choices": ["Aminoacyl-tRNA synthetase", "RNA polymerase", "Peptidyl transferase", "Ribonuclease"]},
+  {"q": "What specialized cell type in the kidney juxtaglomerular apparatus senses luminal sodium chloride concentrations to regulate renin release?", "a": "Macula densa", "difficulty": 8, "hint": "They are located in the wall of the distal convoluted tubule.", "choices": ["Juxtaglomerular cells", "Podocytes", "Mesangial cells", "Macula densa"]},
+  {"q": "Which metabolic pathway in the liver converts lactate produced by anaerobic glycolysis in muscles back into glucose?", "a": "Cori cycle", "difficulty": 8, "hint": "It prevents lactic acidosis during intense muscular exertion.", "choices": ["Cori cycle", "Glucose-alanine cycle", "Citric acid cycle", "Pentose phosphate pathway"]},
+  {"q": "What specific immunological mechanism prevents autoimmune diseases by eliminating self-reactive T cells in the thymus during development?", "a": "Central tolerance", "difficulty": 8, "hint": "It involves negative selection mediated by the AIRE transcription factor.", "choices": ["Peripheral tolerance", "Central tolerance", "Clonal anergy", "Somatic hypermutation"]},
+  {"q": "Which rare genetic condition is caused by a defect in the microtubule motor protein dynein, leading to chronic respiratory infections and situs inversus?", "a": "Kartagener syndrome", "difficulty": 9, "hint": "It is a subgroup of primary ciliary dyskinesia.", "choices": ["Marfan syndrome", "Cystic fibrosis", "Kartagener syndrome", "Ehlers-Danlos syndrome"]},
+  {"q": "What specific sequence motif in eukaryotic promoters serves as the core binding site for transcription factor TFIID and RNA polymerase II?", "a": "TATA box", "difficulty": 9, "hint": "It is typically located 25 to 30 base pairs upstream of the transcription start site.", "choices": ["GC box", "CAAT box", "Pribnow box", "TATA box"]},
+  {"q": "Which specific histone variant is rapidly phosphorylated at serine 139 in response to double-strand DNA breaks to recruit repair machinery?", "a": "H2AX", "difficulty": 9, "hint": "When phosphorylated, it is referred to as gamma-H2AX.", "choices": ["H2AX", "H3.3", "macroH2A", "CENP-A"]},
+  {"q": "What is the name of the biochemical reaction where a histidine residue is decarboxylated by histidine decarboxylase using pyridoxal phosphate as a cofactor?", "a": "Histamine synthesis", "difficulty": 9, "hint": "The product is a potent vasodilator involved in inflammatory allergic responses.", "choices": ["Serotonin synthesis", "Histamine synthesis", "GABA synthesis", "Dopamine synthesis"]},
+  {"q": "Which structural protein complex forms a ring around sister chromatids during S phase to hold them together until anaphase separation?", "a": "Cohesin", "difficulty": 9, "hint": "It is cleaved by the enzyme separase once the spindle assembly checkpoint is satisfied.", "choices": ["Condensin", "Shugoshin", "Cohesin", "Anaphase-promoting complex"]},
+  {"q": "In the light-dependent reactions of photosynthesis, which specific protein complex oxidizes water to generate atmospheric oxygen and protons?", "a": "Oxygen-evolving complex", "difficulty": 9, "hint": "It contains a critical manganese-calcium oxide cluster located on the lumenal side of Photosystem II.", "choices": ["Photosystem I", "Cytochrome b6f", "ATP synthase", "Oxygen-evolving complex"]},
+  {"q": "Which membrane-bound enzyme catalyzes the rate-limiting step in cholesterol biosynthesis and is the primary target of statin drugs?", "a": "HMG-CoA reductase", "difficulty": 9, "hint": "It converts HMG-CoA to mevalonate in the endoplasmic reticulum.", "choices": ["HMG-CoA reductase", "Squalene epoxidase", "Mevalonate kinase", "Farnesyl pyrophosphate synthase"]},
+  {"q": "What phenomenon occurs when a single nucleotide polymorphic allele is preferentially expressed over the other chromosomal allele due to epigenetic modifications?", "a": "Allelic exclusion", "difficulty": 9, "hint": "It famously ensures that each B cell expresses only a single functional B-cell receptor.", "choices": ["Paramutation", "Allelic exclusion", "Gene conversion", "Transvection"]},
+  {"q": "Which specialized embryonic structures form the definitive kidney in amniotes after the degeneration of the pronephros and mesonephros?", "a": "Metanephros", "difficulty": 9, "hint": "It develops from the ureteric bud and metanephric blastema during the fifth week of human gestation.", "choices": ["Pronephros", "Mesonephros", "Metanephros", "Wolffian duct"]},
+  {"q": "What specialized protein channel allows the passage of water across lipid bilayers and contains an NPA motif that prevents proton leakage?", "a": "Aquaporin", "difficulty": 9, "hint": "Peter Agre won the 2003 Nobel Prize in Chemistry for discovering these channels.", "choices": ["Ionophore", "Connexin", "Porin", "Aquaporin"]}
+],
+"History": [
+  {"q": "Who was the first President of the United States?", "a": "George Washington", "difficulty": 0, "hint": "His face is on the American one-dollar bill.", "choices": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"]},
+  {"q": "Which ancient civilization built the pyramids of Giza?", "a": "Ancient Egyptians", "difficulty": 0, "hint": "They ruled along the banks of the Nile River.", "choices": ["Romans", "Mayans", "Ancient Egyptians", "Greeks"]},
+  {"q": "In which year did World War II end?", "a": "1945", "difficulty": 0, "hint": "It ended shortly after the atomic bombs were dropped on Hiroshima and Nagasaki.", "choices": ["1918", "1939", "1945", "1950"]},
+  {"q": "Who was the first person to walk on the moon?", "a": "Neil Armstrong", "difficulty": 0, "hint": "He famously said, 'That's one small step for man, one giant leap for mankind.'", "choices": ["Buzz Aldrin", "Yuri Gagarin", "Michael Collins", "Neil Armstrong"]},
+  {"q": "What ship famously sank in 1912 after striking an iceberg?", "a": "Titanic", "difficulty": 0, "hint": "It was deemed 'unsinkable' before its maiden voyage.", "choices": ["Titanic", "Lusitania", "Santa Maria", "Mayflower"]},
+  {"q": "Which Renaissance artist painted the Mona Lisa?", "a": "Leonardo da Vinci", "difficulty": 0, "hint": "He was also a prolific inventor who sketched early flying machines.", "choices": ["Michelangelo", "Raphael", "Leonardo da Vinci", "Donatello"]},
+  {"q": "What wall fell in 1989, symbolizing the end of the Cold War in Europe?", "a": "Berlin Wall", "difficulty": 0, "hint": "It divided a major German city into East and West.", "choices": ["Great Wall of China", "Hadrian's Wall", "Western Wall", "Berlin Wall"]},
+  {"q": "Who was the civil rights leader famous for his 'I Have a Dream' speech?", "a": "Martin Luther King Jr.", "difficulty": 0, "hint": "He delivered this historic speech at the Lincoln Memorial in 1963.", "choices": ["Malcolm X", "Martin Luther King Jr.", "Frederick Douglass", "Rosa Parks"]},
+  {"q": "Which empire was ruled by Julius Caesar?", "a": "Roman Empire", "difficulty": 0, "hint": "Its capital city was famously said to not have been built in a day.", "choices": ["Ottoman Empire", "Roman Empire", "British Empire", "Mongol Empire"]},
+  {"q": "Which country was led by Adolf Hitler during World War II?", "a": "Germany", "difficulty": 0, "hint": "His political party was known as the Nazis.", "choices": ["Italy", "Austria", "Germany", "Japan"]},
+  {"q": "Who is credited with reaching the Americas in 1492?", "a": "Christopher Columbus", "difficulty": 1, "hint": "He sailed with three ships: the Niña, the Pinta, and the Santa María.", "choices": ["Ferdinand Magellan", "Christopher Columbus", "Marco Polo", "Vasco da Gama"]},
+  {"q": "Who was the queen of ancient Egypt famously associated with Julius Caesar and Mark Antony?", "a": "Cleopatra", "difficulty": 1, "hint": "She was the last active ruler of the Ptolemaic Kingdom.", "choices": ["Nefertiti", "Cleopatra", "Hatshepsut", "Boudica"]},
+  {"q": "Who was the British Prime Minister during the majority of World War II?", "a": "Winston Churchill", "difficulty": 1, "hint": "He was known for his speeches inspiring the British public during the Blitz.", "choices": ["Neville Chamberlain", "Clement Attlee", "Winston Churchill", "David Lloyd George"]},
+  {"q": "Which French military leader and emperor was defeated at the Battle of Waterloo in 1815?", "a": "Napoleon Bonaparte", "difficulty": 1, "hint": "He was famously exiled to the island of Saint Helena.", "choices": ["Napoleon Bonaparte", "Louis XIV", "Charles de Gaulle", "Robespierre"]},
+  {"q": "What global influenza pandemic began in 1918 right at the end of World War I?", "a": "Spanish Flu", "difficulty": 1, "hint": "Despite its name, its exact geographic origin remains unknown.", "choices": ["Asian Flu", "Black Death", "Swine Flu", "Spanish Flu"]},
+  {"q": "Which American president signed the Emancipation Proclamation during the Civil War?", "a": "Abraham Lincoln", "difficulty": 1, "hint": "He was assassinated at Ford's Theatre in 1865.", "choices": ["Andrew Jackson", "Ulysses S. Grant", "Abraham Lincoln", "Thomas Jefferson"]},
+  {"q": "What ancient trade network connected China to the Mediterranean Sea?", "a": "Silk Road", "difficulty": 1, "hint": "It was named after a lucrative Chinese textile traded along the route.", "choices": ["Spice Route", "Amber Road", "Silk Road", "Royal Road"]},
+  {"q": "Where were the first modern Olympic Games held in 1896?", "a": "Athens", "difficulty": 1, "hint": "This city is the capital of Greece.", "choices": ["Paris", "London", "Athens", "Rome"]},
+  {"q": "Who was the first female Prime Minister of the United Kingdom, often called the 'Iron Lady'?", "a": "Margaret Thatcher", "difficulty": 1, "hint": "She led the Conservative Party throughout the 1980s.", "choices": ["Theresa May", "Indira Gandhi", "Margaret Thatcher", "Angela Merkel"]},
+  {"q": "Which country gifted the Statue of Liberty to the United States as a symbol of friendship?", "a": "France", "difficulty": 1, "hint": "Its capital city is home to the Eiffel Tower.", "choices": ["United Kingdom", "France", "Spain", "Germany"]},
+  {"q": "In which year did World War I break out in Europe?", "a": "1914", "difficulty": 2, "hint": "It began shortly after the assassination of Archduke Franz Ferdinand.", "choices": ["1905", "1914", "1918", "1939"]},
+  {"q": "Which Russian Tsar was overthrown during the 1917 Russian Revolution?", "a": "Nicholas II", "difficulty": 2, "hint": "He and his family, the Romanovs, were executed in 1918.", "choices": ["Alexander III", "Ivan the Terrible", "Peter the Great", "Nicholas II"]},
+  {"q": "What was the name of the ship that transported the Pilgrims to New England in 1620?", "a": "Mayflower", "difficulty": 2, "hint": "The passengers signed a famous 'Compact' before landing.", "choices": ["Mayflower", "Endeavour", "Beagle", "Victoria"]},
+  {"q": "Who was the anti-apartheid leader elected as South Africa's first Black president in 1994?", "a": "Nelson Mandela", "difficulty": 2, "hint": "He spent 27 years in prison before his release in 1990.", "choices": ["Desmond Tutu", "Kofi Annan", "Nelson Mandela", "Robert Mugabe"]},
+  {"q": "Which conqueror founded the Mongol Empire, creating the largest contiguous land empire in history?", "a": "Genghis Khan", "difficulty": 2, "hint": "His original name was Temüjin.", "choices": ["Kublai Khan", "Attila the Hun", "Genghis Khan", "Tamerlane"]},
+  {"q": "What was the name of the ancient Roman amphitheater used for gladiator contests and public spectacles?", "a": "Colosseum", "difficulty": 2, "hint": "It is still standing today in the center of Rome.", "choices": ["Pantheon", "Circus Maximus", "Colosseum", "Forum"]},
+  {"q": "Who became the first official Emperor of the Roman Empire in 27 BC?", "a": "Augustus", "difficulty": 2, "hint": "He was originally named Octavian and was the adopted son of Julius Caesar.", "choices": ["Nero", "Augustus", "Tiberius", "Marcus Aurelius"]},
+  {"q": "Which Spanish conquistador led the expedition that caused the fall of the Aztec Empire?", "a": "Hernán Cortés", "difficulty": 2, "hint": "He captured the Aztec ruler Moctezuma II in Tenochtitlan.", "choices": ["Francisco Pizarro", "Hernán Cortés", "Juan Ponce de León", "Hernando de Soto"]},
+  {"q": "What specific event in Sarajevo triggered the outbreak of World War I?", "a": "Assassination of Archduke Franz Ferdinand", "difficulty": 2, "hint": "The shooter was a Serbian nationalist named Gavrilo Princip.", "choices": ["Sinking of the Lusitania", "Invasion of Poland", "Assassination of Archduke Franz Ferdinand", "Zimmermann Telegram"]},
+  {"q": "Which ancient Roman city was preserved under ash after the eruption of Mount Vesuvius in 79 AD?", "a": "Pompeii", "difficulty": 2, "hint": "Excavations of this city revealed detailed plaster casts of its victims.", "choices": ["Herculaneum", "Ostia Antica", "Syracuse", "Pompeii"]},
+  {"q": "What royal charter, signed by King John in 1215, established that everyone, including the king, is subject to the law?", "a": "Magna Carta", "difficulty": 3, "hint": "It was signed at Runnymede near Windsor.", "choices": ["Bill of Rights", "Magna Carta", "Petition of Right", "Domesday Book"]},
+  {"q": "Who was the primary leader and namesake of the Ottoman Empire upon its founding in the late 13th century?", "a": "Osman I", "difficulty": 3, "hint": "His descendants ruled the empire for over six centuries.", "choices": ["Suleiman the Magnificent", "Mehmed II", "Osman I", "Saladin"]},
+  {"q": "Which American President resigned from office in 1974 due to the Watergate scandal?", "a": "Richard Nixon", "difficulty": 3, "hint": "He was pardoned shortly afterward by his successor, Gerald Ford.", "choices": ["Lyndon B. Johnson", "Richard Nixon", "Jimmy Carter", "Ronald Reagan"]},
+  {"q": "Who was the British nurse who organized care for wounded soldiers during the Crimean War and modernized nursing?", "a": "Florence Nightingale", "difficulty": 3, "hint": "She became known as 'The Lady with the Lamp'.", "choices": ["Clara Barton", "Mary Seacole", "Florence Nightingale", "Dorothea Dix"]},
+  {"q": "What was the code name for the secret US government project during World War II that developed the atomic bomb?", "a": "Manhattan Project", "difficulty": 3, "hint": "It was scientifically directed by J. Robert Oppenheimer.", "choices": ["Project Apollo", "Operation Paperclip", "Manhattan Project", "Trinity Project"]},
+  {"q": "Which 1919 peace treaty formally ended the state of war between Germany and the Allied Powers after World War I?", "a": "Treaty of Versailles", "difficulty": 3, "hint": "It imposed heavy reparations and territorial losses on Germany.", "choices": ["Treaty of Trianon", "Treaty of Versailles", "Treaty of Brest-Litovsk", "Treaty of Saint-Germain"]},
+  {"q": "Which Chinese dynasty rebuilt and fortified the majority of the Great Wall as it stands today?", "a": "Ming Dynasty", "difficulty": 3, "hint": "This dynasty ruled China from 1368 to 1644, following the collapse of the Mongol Yuan dynasty.", "choices": ["Han Dynasty", "Tang Dynasty", "Qing Dynasty", "Ming Dynasty"]},
+  {"q": "Who was the female pharaoh of ancient Egypt who reigned during the 18th Dynasty and established extensive trade networks?", "a": "Hatshepsut", "difficulty": 3, "hint": "She often depicted herself with traditional male pharaonic regalia, including a false beard.", "choices": ["Nefertari", "Hatshepsut", "Sobekneferu", "Twosret"]},
+  {"q": "Which Portuguese explorer organized the Spanish expedition that achieved the first circumnavigation of the Earth?", "a": "Ferdinand Magellan", "difficulty": 3, "hint": "He was killed in the Philippines before completing the voyage himself.", "choices": ["Vasco Núñez de Balboa", "Bartolomeu Dias", "Ferdinand Magellan", "Francis Drake"]},
+  {"q": "In which modern-day European country was the Battle of Waterloo fought?", "a": "Belgium", "difficulty": 3, "hint": "The battlefield lies just south of Brussels.", "choices": ["France", "Belgium", "Netherlands", "Germany"]},
+  {"q": "Who was the Premier of the Soviet Union during the 1962 Cuban Missile Crisis?", "a": "Nikita Khrushchev", "difficulty": 4, "hint": "He famously engaged in the 'Kitchen Debate' with Richard Nixon.", "choices": ["Joseph Stalin", "Leonid Brezhnev", "Nikita Khrushchev", "Mikhail Gorbachev"]},
+  {"q": "What military alliance was formed in 1949 by North American and Western European nations to provide collective security against the Soviet Union?", "a": "NATO", "difficulty": 4, "hint": "Its full name is the North Atlantic Treaty Organization.", "choices": ["Warsaw Pact", "SEATO", "NATO", "League of Nations"]},
+  {"q": "Who was the first European explorer to reach India by sea, sailing around the southern tip of Africa in 1498?", "a": "Vasco da Gama", "difficulty": 4, "hint": "His voyage opened up the direct maritime spice trade for Portugal.", "choices": ["Prince Henry the Navigator", "Vasco da Gama", "Amerigo Vespucci", "John Cabot"]},
+  {"q": "Which English monarch initiated the English Reformation by separating the Church of England from papal authority to annul his marriage?", "a": "Henry VIII", "difficulty": 4, "hint": "He famously had six wives over the course of his reign.", "choices": ["James I", "Henry VIII", "Charles I", "Edward VI"]},
+  {"q": "What was the name of the 16th-century religious movement in Europe that challenged the Roman Catholic Church and led to new Christian denominations?", "a": "Protestant Reformation", "difficulty": 4, "hint": "It was sparked when Martin Luther nailed his 95 Theses to a church door.", "choices": ["Counter-Reformation", "Great Schism", "Protestant Reformation", "Enlightenment"]},
+  {"q": "During which conflict was the decisive Battle of Gettysburg fought in July 1863?", "a": "American Civil War", "difficulty": 4, "hint": "It resulted in the largest number of casualties of any battle in that war.", "choices": ["American Revolution", "War of 1812", "American Civil War", "Spanish-American War"]},
+  {"q": "Who was the last Emperor of China, ascending the throne as a toddler in 1908 before being forced to abdicate in 1912?", "a": "Puyi", "difficulty": 4, "hint": "His life was dramatized in a famous 1987 film by Bernardo Bertolucci.", "choices": ["Guangxu", "Puyi", "Hongwu", "Kangxi"]},
+  {"q": "Which ancient Mesopotamian civilization is credited with inventing cuneiform, one of the earliest known systems of writing?", "a": "Sumerians", "difficulty": 4, "hint": "They thrived in the region of modern-day southern Iraq around 3500 BC.", "choices": ["Assyrians", "Babylonians", "Sumerians", "Akkadians"]},
+  {"q": "In which year did the Soviet Union officially dissolve into fifteen independent republics?", "a": "1991", "difficulty": 4, "hint": "This marked the formal end of the Cold War era on December 26.", "choices": ["1989", "1991", "1993", "1985"]},
+  {"q": "Who was the principal author of the United States Declaration of Independence, adopted in 1776?", "a": "Thomas Jefferson", "difficulty": 4, "hint": "He later served as the third President of the United States.", "choices": ["John Adams", "Benjamin Franklin", "Thomas Jefferson", "Alexander Hamilton"]},
+  {"q": "What was the official Allied code name for the amphibious invasion of Normandy on June 6, 1944?", "a": "Operation Overlord", "difficulty": 5, "hint": "The day of the landing itself is widely known as D-Day.", "choices": ["Operation Torch", "Operation Market Garden", "Operation Barbarossa", "Operation Overlord"]},
+  {"q": "Which 14th-century ruler of the Mali Empire is widely considered by historians to be one of the wealthiest individuals in human history?", "a": "Mansa Musa", "difficulty": 5, "hint": "His lavish pilgrimage to Mecca in 1324 famously destabilized local gold economies along the way.", "choices": ["Sundiata Keita", "Mansa Musa", "Sonni Ali", "Askia the Great"]},
+  {"q": "Who was the King of France during the outbreak of the French Revolution, later executed by guillotine in 1793?", "a": "Louis XVI", "difficulty": 5, "hint": "His wife was the famously unpopular Marie Antoinette.", "choices": ["Louis XIV", "Louis XV", "Louis XVI", "Charles X"]},
+  {"q": "Which 1066 conflict resulted in William the Conqueror successfully invading England and defeating King Harold Godwinson?", "a": "Battle of Hastings", "difficulty": 5, "hint": "The battle is famously depicted on the Bayeux Tapestry.", "choices": ["Battle of Agincourt", "Battle of Stamford Bridge", "Battle of Hastings", "Battle of Bannockburn"]},
+  {"q": "Which Japanese city was the second to be devastated by an atomic bomb, attacked on August 9, 1945?", "a": "Nagasaki", "difficulty": 5, "hint": "The plutonium bomb dropped on this city was nicknamed 'Fat Man'.", "choices": ["Hiroshima", "Tokyo", "Nagasaki", "Kyoto"]},
+  {"q": "Which ruler founded the Achaemenid Empire, creating the largest empire the ancient world had seen by the time of his death in 530 BC?", "a": "Cyrus the Great", "difficulty": 5, "hint": "He famously issued an ancient cylinder declaring religious tolerance and human rights.", "choices": ["Darius I", "Xerxes I", "Cyrus the Great", "Artaxerxes I"]},
+  {"q": "Which 1494 treaty between Spain and Portugal divided the newly discovered lands outside Europe along a meridian 370 leagues west of the Cape Verde islands?", "a": "Treaty of Tordesillas", "difficulty": 5, "hint": "This line of demarcation explains why Portuguese is spoken in Brazil today.", "choices": ["Treaty of Utrecht", "Treaty of Tordesillas", "Treaty of Zaragoza", "Treaty of Alcáçovas"]},
+  {"q": "Which Byzantine Emperor codified basic Roman law into the Corpus Juris Civilis and commissioned the construction of the Hagia Sophia?", "a": "Justinian I", "difficulty": 5, "hint": "He ruled alongside his influential wife, Empress Theodora, in the 6th century.", "choices": ["Constantine the Great", "Justinian I", "Heraclius", "Basil II"]},
+  {"q": "What was the name of the 15th-century series of English civil wars fought between the rival royal Houses of Lancaster and York?", "a": "Wars of the Roses", "difficulty": 5, "hint": "The symbols of the two fighting factions were red and white flowers.", "choices": ["English Civil War", "Hundred Years' War", "Wars of the Roses", "Anarchy"]},
+  {"q": "Who was the Venezuelan military and political leader instrumental in liberating much of South America from Spanish colonial rule?", "a": "Simon Bolivar", "difficulty": 5, "hint": "A modern South American country is named in his honor.", "choices": ["Jose de San Martin", "Simon Bolivar", "Bernardo O'Higgins", "Antonio Jose de Sucre"]},
+  {"q": "Which prolonged conflict between Athens and Sparta engulfed ancient Greece from 431 to 404 BC?", "a": "Peloponnesian War", "difficulty": 6, "hint": "It resulted in the defeat of Athens and the dismantling of the Delian League.", "choices": ["Persian Wars", "Peloponnesian War", "Corinthian War", "Boeotian War"]},
+  {"q": "Who was the longest-reigning female monarch in Russian history, ruling from 1762 until 1796 after deposing her husband Peter III?", "a": "Catherine the Great", "difficulty": 6, "hint": "She famously patronized the European Enlightenment and expanded Russia's borders to the Black Sea.", "choices": ["Empress Elizabeth", "Catherine the Great", "Empress Anna", "Sophia Alekseyevna"]},
+  {"q": "Which ruler became the first Emperor of a unified China in 221 BC and commissioned the famous Terracotta Army for his tomb?", "a": "Qin Shi Huang", "difficulty": 6, "hint": "His short-lived dynasty gave China its modern Western name.", "choices": ["Han Gaozu", "Emperor Wu of Han", "Qin Shi Huang", "Emperor Taizong of Tang"]},
+  {"q": "What was the name of the electromechanical cipher machine used by Nazi Germany that was famously cracked by Allied cryptologists at Bletchley Park?", "a": "Enigma", "difficulty": 6, "hint": "Mathematician Alan Turing played a vital role in deciphering its messages.", "choices": ["Lorenz cipher", "Enigma", "Purple", "Sigaba"]},
+  {"q": "Which landmark series of peace treaties, signed in 1648, brought an end to the destructive Thirty Years' War in the Holy Roman Empire?", "a": "Peace of Westphalia", "difficulty": 6, "hint": "It established the foundational diplomatic principles of state sovereignty in Europe.", "choices": ["Treaty of Ryswick", "Peace of Westphalia", "Treaty of Augsburg", "Treaty of Nystad"]},
+  {"q": "Who was the former enslaved man who emerged as the most prominent military leader of the Haitian Revolution against French rule?", "a": "Toussaint Louverture", "difficulty": 6, "hint": "He was captured by Napoleonic forces in 1802 and died in a French prison before Haiti declared full independence.", "choices": ["Jean-Jacques Dessalines", "Henri Christophe", "Toussaint Louverture", "Vincent Ogé"]},
+  {"q": "Which powerful ancient North African city-state was completely destroyed by the Roman Republic in 146 BC at the end of the Third Punic War?", "a": "Carthage", "difficulty": 6, "hint": "Legend claims the Romans sowed the city's fields with salt after burning it to the ground.", "choices": ["Tyre", "Alexandria", "Carthage", "Syracuse"]},
+  {"q": "What was the name of the independent Polish trade union founded in 1980 at the Gdańsk Shipyard that played a central role in the fall of Soviet communism?", "a": "Solidarity", "difficulty": 6, "hint": "It was led by future Polish President Lech Wałęsa.", "choices": ["Charter 77", "Solidarity", "Velvet Revolution", "Fidesz"]},
+  {"q": "In which year did the Ottoman Empire capture Constantinople, marking the final collapse of the Byzantine Empire?", "a": "1453", "difficulty": 6, "hint": "The siege was led by the 21-year-old Sultan Mehmed II using massive siege cannons.", "choices": ["1204", "1389", "1453", "1526"]},
+  {"q": "Which conservative Prussian statesman masterminded the unification of Germany in 1871 and served as its first Chancellor?", "a": "Otto von Bismarck", "difficulty": 6, "hint": "He was famous for his diplomacy of 'Realpolitik' and his 'Blood and Iron' speech.", "choices": ["Klemens von Metternich", "Otto von Bismarck", "Helmuth von Moltke", "Wilhelm I"]},
+  {"q": "What was the common name for the violent anti-foreign and anti-Christian uprising that took place in China between 1899 and 1901?", "a": "Boxer Rebellion", "difficulty": 7, "hint": "It was led by a secret society known as the Society of Righteous and Harmonious Fists.", "choices": ["Taiping Rebellion", "Boxer Rebellion", "Yellow Turban Rebellion", "An Lushan Rebellion"]},
+  {"q": "Which British Prime Minister famously repealed the controversial protectionist grain tariffs known as the Corn Laws in 1846?", "a": "Robert Peel", "difficulty": 7, "hint": "He is also remembered as the father of modern British policing, creating London's 'Bobbies'.", "choices": ["William Gladstone", "Benjamin Disraeli", "Robert Peel", "Lord Palmerston"]},
+  {"q": "Which Roman general defeated Hannibal Barca at the decisive Battle of Zama in 202 BC, ending the Second Punic War?", "a": "Scipio Africanus", "difficulty": 7, "hint": "He earned his geographical agnomen due to his military victories in North Africa.", "choices": ["Julius Caesar", "Pompey the Great", "Scipio Africanus", "Fabius Maximus"]},
+  {"q": "Which major 1571 naval battle saw the combined fleet of the Holy League decisively defeat the Ottoman Empire's navy in the Gulf of Patras?", "a": "Battle of Lepanto", "difficulty": 7, "hint": "It was the last major naval battle in the Mediterranean fought entirely between rowing galleys.", "choices": ["Battle of Actium", "Battle of Lepanto", "Battle of Navarino", "Battle of Preveza"]},
+  {"q": "Which Swedish King led his nation to great military prominence during the Thirty Years' War before being killed in action at the Battle of Lützen in 1632?", "a": "Gustavus Adolphus", "difficulty": 7, "hint": "He is often referred to as the 'Father of Modern Warfare' for his innovative combined arms tactics.", "choices": ["Charles XII", "Gustavus Adolphus", "Gustav I", "Christina of Sweden"]},
+  {"q": "What conflict was fought between the Qing Dynasty of China and the British Empire from 1839 to 1842 over trade imbalances and the importation of narcotics?", "a": "First Opium War", "difficulty": 7, "hint": "It resulted in the Treaty of Nanking, which ceded Hong Kong Island to the United Kingdom.", "choices": ["First Opium War", "Second Opium War", "Sino-Japanese War", "Anglo-Chinese War"]},
+  {"q": "Which 14th-century Moroccan scholar and explorer traveled roughly 73,000 miles across Africa, Asia, and Europe, documenting his journeys in the Rihla?", "a": "Ibn Battuta", "difficulty": 7, "hint": "He visited the lands of every Muslim ruler of his time during his 30-year travels.", "choices": ["Ibn Khaldun", "Al-Masudi", "Ibn Battuta", "Marco Polo"]},
+  {"q": "What dramatic 1618 event, in which two Catholic imperial governors were thrown out of a third-floor castle window by Protestant nobility, sparked the Thirty Years' War?", "a": "Defenestration of Prague", "difficulty": 7, "hint": "The victims miraculously survived the 70-foot fall, reportedly landing in a large pile of manure.", "choices": ["Diet of Worms", "Defenestration of Prague", "Massacre of St. Bartholomew's Day", "Prague Spring"]},
+  {"q": "Which Tsar founded the city of Saint Petersburg in 1703 and moved the Russian capital there from Moscow to serve as a 'window to Europe'?", "a": "Peter the Great", "difficulty": 7, "hint": "He famously traveled Western Europe incognito and instituted a beard tax upon his return.", "choices": ["Ivan III", "Peter the Great", "Alexander I", "Paul I"]},
+  {"q": "Who was crowned Emperor of the Romans by Pope Leo III on Christmas Day in the year 800 AD?", "a": "Charlemagne", "difficulty": 7, "hint": "He united the majority of Western and Central Europe for the first time since the fall of the Western Roman Empire.", "choices": ["Otto I", "Clovis I", "Charlemagne", "Charles Martel"]},
+  {"q": "Which 1916 secret treaty between the United Kingdom and France proposed the partition of the Ottoman Empire's Middle Eastern territories into mutually defined spheres of influence?", "a": "Sykes-Picot Agreement", "difficulty": 8, "hint": "It was exposed by the Bolsheviks following the Russian Revolution, causing intense international controversy.", "choices": ["Balfour Declaration", "Sykes-Picot Agreement", "Treaty of Sèvres", "Lausanne Conference"]},
+  {"q": "Who was the last ruler of the Aztec Empire, reigning from 1520 until his capture and eventual execution by Spanish conquistadors in 1525?", "a": "Cuauhtémoc", "difficulty": 8, "hint": "He was the cousin and immediate successor of Moctezuma II's brother, Cuitláhuac.", "choices": ["Moctezuma II", "Cuitláhuac", "Cuauhtémoc", "Tizoc"]},
+  {"q": "What was the name of the feudal military government of Japan that ruled during the Edo period from 1603 until the Meiji Restoration in 1867?", "a": "Tokugawa Shogunate", "difficulty": 8, "hint": "It enforced strict isolationist foreign policies known as Sakoku.", "choices": ["Kamakura Shogunate", "Ashikaga Shogunate", "Tokugawa Shogunate", "Muromachi Shogunate"]},
+  {"q": "Which 732 AD battle saw Frankish and Burgundian forces under Charles Martel defeat an invading army of the Umayyad Caliphate near Poitiers?", "a": "Battle of Tours", "difficulty": 8, "hint": "This victory is celebrated by historians for halting the northward advance of Islam into Western Europe.", "choices": ["Battle of Tours", "Battle of Roncevaux Pass", "Battle of Covadonga", "Battle of Lechfeld"]},
+  {"q": "What legal edict was issued by Holy Roman Emperor Charles VI in 1713 to ensure that hereditary Habsburg possessions could be inherited by a daughter?", "a": "Pragmatic Sanction", "difficulty": 8, "hint": "Despite this edict, the ascension of his daughter Maria Theresa sparked the War of the Austrian Succession.", "choices": ["Golden Bull of 1356", "Pragmatic Sanction", "Edict of Nantes", "Treaty of Aix-la-Chapelle"]},
+  {"q": "Which Athenian statesman and general delivered the celebrated Funeral Oration during the first year of the Peloponnesian War?", "a": "Pericles", "difficulty": 8, "hint": "He led Athens during its Golden Age and championed the construction of the Parthenon.", "choices": ["Themistocles", "Alcibiades", "Pericles", "Solon"]},
+  {"q": "Which decisive 1805 naval victory saw Admiral Lord Nelson destroy the combined Franco-Spanish fleet off the coast of Spain, confirming British naval supremacy?", "a": "Battle of Trafalgar", "difficulty": 8, "hint": "Nelson was fatally shot by a French sniper during the battle aboard his flagship, HMS Victory.", "choices": ["Battle of the Nile", "Battle of Trafalgar", "Battle of Camperdown", "Battle of Copenhagen"]},
+  {"q": "Which European royal house held the title of Holy Roman Emperor almost continuously from 1438 until the dissolution of the empire in 1806?", "a": "Habsburg Dynasty", "difficulty": 8, "hint": "They ruled over Austria, Spain, and extensive lands across the globe.", "choices": ["House of Hohenzollern", "House of Bourbon", "Habsburg Dynasty", "House of Wittelsbach"]},
+  {"q": "Which 12th-century Byzantine princess wrote 'The Alexiad', an account of her father's reign that serves as one of the few surviving primary historical sources written by a medieval woman?", "a": "Anna Komnene", "difficulty": 8, "hint": "Her work provides a unique Eastern Orthodox perspective on the First Crusade.", "choices": ["Empress Theodora", "Anna Komnene", "Zoe Porphyrogenita", "Eudokia Makrembolitissa"]},
+  {"q": "What diplomatic meeting of major European powers from 1884 to 1885 regulated European colonization and trade in Africa during the New Imperialism period?", "a": "Berlin Conference", "difficulty": 8, "hint": "It was organized by German Chancellor Otto von Bismarck and initiated the 'Scramble for Africa'.", "choices": ["Congress of Vienna", "Berlin Conference", "Treaty of Algeciras", "Fashoda Crisis"]},
+  {"q": "Which 1699 treaty marked the first major territorial loss of the Ottoman Empire in Europe, ceding most of Hungary, Transylvania, and Slavonia to the Habsburg Monarchy?", "a": "Treaty of Karlowitz", "difficulty": 9, "hint": "It concluded the Great Turkish War of 1683–1699 following the failed Ottoman Siege of Vienna.", "choices": ["Treaty of Passarowitz", "Treaty of Karlowitz", "Treaty of Kuchuk-Kainarji", "Treaty of Svishtov"]},
+  {"q": "Which Roman Emperor was famously captured alive by the Persian Sasanian King Shapur I after the disastrous Battle of Edessa in 260 AD?", "a": "Valerian", "difficulty": 9, "hint": "He became the only Roman Emperor to ever be captured as a prisoner of war.", "choices": ["Decius", "Valerian", "Gallienus", "Aurelian"]},
+  {"q": "Which 1529 treaty between Spain and Portugal settled the dispute over control of the Moluccas by establishing a second anti-meridian of demarcation in the Pacific Ocean?", "a": "Treaty of Zaragoza", "difficulty": 9, "hint": "It served as the Pacific counterpart to the Atlantic line drawn by the Treaty of Tordesillas.", "choices": ["Treaty of Zaragoza", "Treaty of San Ildefonso", "Treaty of Madrid", "Treaty of Lisbon"]},
+  {"q": "Which 14th-century Italian political philosopher wrote 'Defensor Pacis' in 1324, arguing radically against papal sovereignty in favor of the popular sovereignty of the state?", "a": "Marsilius of Padua", "difficulty": 9, "hint": "His treatise was condemned as heretical by Pope John XXII.", "choices": ["Niccolò Machiavelli", "Marsilius of Padua", "William of Ockham", "Coluccio Salutati"]},
+  {"q": "Which Theban general masterminded the innovative oblique order tactical formation to break Spartan military hegemony at the Battle of Leuctra in 371 BC?", "a": "Epaminondas", "difficulty": 9, "hint": "He died victorious at the subsequent Battle of Mantinea in 362 BC.", "choices": ["Pelopidas", "Epaminondas", "Pausanias", "Lysander"]},
+  {"q": "What is the common name for the ancient peace treaty concluded around 1259 BC between Egyptian Pharaoh Ramesses II and Hittite King Hattusili III, the oldest known surviving peace treaty in the world?", "a": "Treaty of Kadesh", "difficulty": 9, "hint": "A replica of this clay tablet is proudly displayed at the United Nations Headquarters in New York.", "choices": ["Treaty of Kadesh", "Amarna Letters", "Stele of the Vultures", "Treaty of Megiddo"]},
+  {"q": "Who was the 23rd and last Grand Master of the Knights Templar, publicly burned at the stake on an island in the Seine River in Paris in March 1314?", "a": "Jacques de Molay", "difficulty": 9, "hint": "Legend states that from the flames, he cursed King Philip IV of France and Pope Clement V to join him before God within a year.", "choices": ["Geoffroy de Charney", "Jacques de Molay", "Hugues de Payens", "Robert de Craon"]},
+  {"q": "Which French statesman served as Minister of Finances under King Louis XIV from 1665 to 1683, aggressively implementing protectionist mercantilist policies and founding the French East India Company?", "a": "Jean-Baptiste Colbert", "difficulty": 9, "hint": "His relentless economic reforms and focus on domestic manufacturing became known as 'Colbertism'.", "choices": ["Cardinal Mazarin", "Jean-Baptiste Colbert", "Nicolas Fouquet", "Marquis de Louvois"]},
+  {"q": "Which 1555 agreement between Holy Roman Emperor Charles V and the Schmalkaldic League enshrined the principle of 'cuius regio, eius religio', allowing princes to choose the religion of their realms?", "a": "Peace of Augsburg", "difficulty": 9, "hint": "It legally recognized Lutheranism within the Holy Roman Empire for the first time, though it excluded Calvinists.", "choices": ["Edict of Worms", "Peace of Augsburg", "Treaty of Passau", "Diet of Speyer"]},
+  {"q": "Which Anglo-Saxon King of Wessex decisively defeated the Viking Great Heathen Army led by Guthrum at the Battle of Edington in May 878 AD?", "a": "Alfred the Great", "difficulty": 9, "hint": "He subsequently forced Guthrum to convert to Christianity and established the boundary known as the Danelaw.", "choices": ["Aethelred the Unready", "Alfred the Great", "Edward the Elder", "Aethelstan"]}
+],
